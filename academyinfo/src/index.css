@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+@keyframes move-x {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+  }
+  
+  .animate-move-x {
+    animation: move-x 2s infinite alternate;
+  }
+  
+  @keyframes move-x-reverse {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+  }
+  
+  .animate-move-x-reverse {
+    animation: move-x-reverse 2s infinite alternate;
+  }
+
+  
+
+  /* name animate */
+
+ 
