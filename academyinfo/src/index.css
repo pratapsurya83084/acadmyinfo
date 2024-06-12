@@ -27,7 +27,10 @@ body{
   
   .animate-move-x-reverse {
     animation: move-x-reverse 2s infinite alternate;
-  }
+    /*-webkit-animation: move-y-reverse 2s infinite alternate;
+    */
+    -webkit-animation: move-x-reverse 2s infinite alternate;
+}
 
   
 
