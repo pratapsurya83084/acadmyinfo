@@ -3,7 +3,7 @@ import React from "react";
 const TimeEnroll = () => {
   return (
     // section 8 to 14
-    <div className="flex flex-col items-center justify-center  sm:ml-0 md:ml-0 lg:ml-0 mt-10 text-white text-center">
+    <div className="timeEnroll-section  flex flex-col items-center justify-center  sm:ml-0 md:ml-0 lg:ml-0 mt-10 text-white text-center">
       <div>
         <h2 className="font-bold text-center">Discover what waits for you</h2>
       </div>
@@ -31,7 +31,8 @@ const TimeEnroll = () => {
       <div>
         <h1 className="mt-4 text-xl font-bold">
           {" "}
-          Register Now in the Next 90 seconds to change your first decision move
+          Register Now in the Next 90 seconds to change <br />
+           your first decision move
         </h1>
       </div>
       {/* timer box */}

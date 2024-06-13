@@ -2,9 +2,11 @@ import React from 'react';
 
 const RealLifeBusiness = () => {
     return (
-        <section className=" text-white font-sans text-base leading-normal py-20 px-5">
+        // md:flex-row
+        // px-5
+        <section className="vidio-section flex flex-col lg:flex  text-white font-sans text-base leading-normal py-20 ">
             {/* 19 section */}
-            <h1 className='text-center font-bold md:text-2xl'> Discover real-life business enthusiasts who transform straight from those who attended my coaching</h1>
+            <h1 className='text-center font-bold md:text-3xl text-2xl'> Discover real-life business enthusiasts who transform straight from those who attended my coaching</h1>
             <div className="flex justify-center mb-4">
               <svg
                 width="400"
@@ -22,9 +24,11 @@ const RealLifeBusiness = () => {
               </svg>
             </div>
             {/* Adjust padding and colors as needed */}
-            <div className="flex flex-wrap justify-between mt-10 ">
+            {/* flex flex-wrap */}
+            <div className="vidios  justify-between mt-10 ">
                 {/* Replace with actual video embed code */}
-                <div className="w-full md:w-[480px] lg:w-[670px] mb-4 md:mb-0 ">
+                {/* lg:w-1/2 ,md:w-1/2*/}
+                <div className="w-full    mb-4  p-6">
                     <div className="relative " style={{ paddingBottom: '56.25%' }}>
                         {/* Replace with actual iframe or video component */}
                         <iframe
@@ -35,7 +39,8 @@ const RealLifeBusiness = () => {
                         />
                     </div>
                 </div>
-                <div className="w-full md:w-[480px] lg:w-[670px]">
+                {/* lg:w-1/2 ,md:w-1/2*/}
+                <div className="w-full mb-4 p-6">
                     <div className="relative" style={{ paddingBottom: '56.25%' }}>
                         {/* Replace with actual iframe or video component */}
                         <iframe

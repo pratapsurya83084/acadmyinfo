@@ -32,6 +32,361 @@ body{
     -webkit-animation: move-x-reverse 2s infinite alternate;
 }
 
-  
+
+
+/* workshop.jsx css  */
+@media (min-width: 320px) and (max-width:375px) {
+  .workshop-section  {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   margin-top: 30px;
+   margin-left:px;
+
+   width: 450px;
+  }
+}
+
+@media (min-width: 375px) and (max-width:425px) {
+  .workshop-section  {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   margin-top: 30px;
+   margin-left:0px;
+
+   width: 480px;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width:768px) {
+  .workshop-section  {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* margin-top: 30px; */
+   margin-left: 0px;
+
+   width: 520px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width:1024px) {
+  .workshop-section {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* margin-top: 30px; */
+   margin-left:0 px;
+ 
+   width: 870px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width:1440px) {
+  .workshop-section {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* margin-top: 30px; */
+   /* margin-left:30 px; */
+    flex-direction: column;
+      justify-content: center;
+
+  }
+}  
+
+@media (min-width: 1440px) and (max-width:1584px) {
+  .workshop-section {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* margin-top: 30px; */
+   /* margin-left:30 px; */
+    flex-direction: row;
+      justify-content: center;
+
+  }
+} 
+
+
+/* left -section */
+@media (min-width: 1024px) and (max-width:1440px) {
+  /* image and name section */
+.workshop-section .workshop-left-section{
+margin-left: 300px;
+}
+}
+
+@media (min-width: 1440px) and (max-width:1584px) {
+  /* image and name section */
+.workshop-section .workshop-left-section{
+margin-left: 150px;
+}
+}
+
+@media (min-width: 1024px) and (max-width:1440px) {
+ .left-text-section{
+  /* margin-top: 100px; */
+font-size: 20px;
+ width: 950px;
+/* white-space: no-wrap; */
+}
+}
+
+/* right-section */
+@media (min-width: 1024px) and (max-width:1440px) {
+  .workshop-section .right-section{
+/* padding-right: 100px; */
+display: flex;
+justify-content: center;
+/* white-space: nowrap; */
+width: 950px;
+
+}
+}
+
+
+/* large x-large screen- left side */
+
+@media (min-width: 1440px) and (max-width:1584px) {
+  .left-text-section{
+/* padding-right: 100px; */
+width: 600px;
+/* height: 400px; */
+
+}
+}
+
+
+@media (min-width: 1440px) and (max-width:1584px) {
+  .workshop-section .right-section{
+/* padding-right: 100px; */
+display: flex;
+margin-right: 50px;
+justify-content: center;
+
+}
+}
 
  
+ @media (min-width: 320px) and (max-width:1024px) {
+  .large-screen-button{
+display: none;
+}
+} 
+ 
+/* how will change buiseness css */
+
+  @media (min-width: 320px) and (max-width:375px) {
+    .buisness-section {
+     /* flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+     margin-top: 30px;
+     margin-left:0px;
+ 
+     width: 510px;
+    }
+  }
+
+  @media (min-width: 375px) and (max-width:425px) {
+    .buisness-section {
+     /* flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+     margin-top: 30px;
+     margin-left:px;
+ 
+     width: 480px;
+    }
+  }
+
+
+  @media (min-width: 375px) and (max-width:768px) {
+    .buisness-section {
+     /* flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+     /* margin-top: 30px; */
+     margin-left: 0px;
+ 
+     width: 550px;
+    }
+  }
+
+
+  @media (min-width: 768px) and (max-width:1024px) {
+    .buisness-section {
+     /* flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+     /* margin-top: 30px; */
+     margin-left: px;
+ 
+     width: 900px;
+    }
+  }
+ 
+
+  
+  @media (min-width: 1440px) and (max-width:1584px) {
+    .buisness-section .image-section {
+    height: 350px;
+    width: 900px;
+   /* width: 00px; */
+    
+    }
+  }
+
+  @media (min-width: 1440px) and (max-width:1584px) {
+    .buisness-section .image-text-section {
+     flex-direction: row;
+    
+    }
+  }
+
+
+/*timeEnroll.jsx  timeEnroll-section css*/
+@media (min-width: 320px) and (max-width:375px) {
+  .timeEnroll-section{
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   margin-top: 30px;
+   margin-left:0px;
+    flex-wrap: wrap;
+   width: 510px;
+   /* text-align: center;
+   justify-content: center;
+   justify-items: center; */
+  }
+}
+
+
+
+@media (min-width: 375px) and (max-width:425px) {
+  .timeEnroll-section {
+ 
+   margin-top: 30px;
+   margin-left:px;
+text-align: center;
+   width: 480px;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width:768px) {
+  .timeEnroll-section{
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* margin-top: 30px; */
+   margin-left: 0px;
+
+   width: 550px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:1024px) {
+  .timeEnroll-section {
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* margin-top: 30px; */
+   margin-left: px;
+
+   width: 900px;
+  }
+}
+
+
+
+@media (min-width: 1024px) and (max-width:1440px) {
+   .timeEnroll-section {
+    margin-left: px;
+
+    width: 1000px;
+   
+  }
+  }
+
+  @media (min-width: 1440px) and (max-width:1584px) {
+    .timeEnroll-section {
+     margin-left: px;
+ 
+     width: 1400px;
+    
+   }
+   }
+
+
+   /* ReallifeBuisness.jsx css */
+
+ @media (min-width: 320px) and (max-width:375px) {
+  .vidio-section{  
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   margin-top: 30px;
+   margin-left:px;
+
+   width: 510px;
+  }
+}
+
+@media (min-width: 375px) and (max-width:425px) {
+  .vidio-section{  
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   margin-top: 30px;
+   margin-left:px;
+
+   width: 550px;
+  }
+}
+
+@media (min-width: 375px) and (max-width:768px) {
+  .vidio-section{  
+   /* flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   margin-top: 30px;
+   margin-left:px;
+
+   width: 550px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:1024px) {
+  .vidio-section{  
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 30px;
+    margin-left:150px;
+    width: 600px;
+   }
+
+}
+
+@media (min-width: 768px) and (max-width:1584px) {
+  .vidio-section .vidios{  
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height:full;
+  
+  display: flex;
+  gap: 20px;
+   width: full;
+   height: full;
+   }
+
+}
