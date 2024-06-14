@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-brown': '#27272a',
-        "custom-gray":"#3f3f46"
+        'custom-brown': '#1c1917',
+        "custom-gray":"#262626",
+        "custom-black":"#262626",
+        "gray":"#57534e"
       },
       // screens: {
       //   'sm': '510px',  // 280px + 230px

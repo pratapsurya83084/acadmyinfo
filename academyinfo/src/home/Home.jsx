@@ -5,6 +5,10 @@ import TimeEnroll  from "../component/TimeEnroll"
 import FeaturedSlider   from "../component/Newsfeature"
 import BuisnessChange   from '../component/BuisnessChange'
 import RealLifeBuissness from '../component/RealLifeBuissness'
+import SeminarSection from "../component/SeminarSection"
+import LearnInFourHour from '../component/LearnInFourHour'
+import BonusSection  from '../component/BonusSection'
+import StruggleDecisions  from '../component/StruggleDecisions'
 const Home = () => {
   return (
     <div>
@@ -14,6 +18,10 @@ const Home = () => {
       <FeaturedSlider/>
       <BuisnessChange/>
       <RealLifeBuissness/>
+      <SeminarSection/>
+      <LearnInFourHour/>
+      <BonusSection/>
+      <StruggleDecisions/>
     </div>
   );
 };

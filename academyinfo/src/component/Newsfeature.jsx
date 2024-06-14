@@ -21,10 +21,11 @@ const Newsfeature = () => {
   return (
     // section 15
     <div>
-    <h1 className="ml-14 md:ml-32 lg:ml-52 mt-10 bg-yellow-400 rounded-tl-xl rounded-tr-xl text-black font-bold inline-block p-1 px-4">
+    <h1 className="crousal-section ml-14 md:ml-32 lg:ml-52 mt-10 bg-yellow-400 rounded-tl-xl rounded-tr-xl text-black font-bold inline-block p-1 px-4">
       FEATURED IN
     </h1>
-    <div className="h-32 rounded-3xl bg-custom-brown mx-5 lg:mx-36 md:gap-10">
+    {/* mx-5 */}
+    <div className="image-crousal-section h-32 rounded-3xl bg-custom-brown  lg:mx-36 md:gap-10">
       <Slider {...settings} className="flex flex-row p-2">
         {/* First slide */}
         <div className="p-2">

@@ -2,11 +2,11 @@ import React from "react";
 
 const Heading = () => {
   return (
-    <div className="flex flex-col  items-center justify-items-center justify-center">
+    <div className="heading-text-section flex flex-col  items-center justify-items-center justify-center">
       {/* section 1- */}
       <div className=" ">
         {/* Blue Image */}
-        <div className="absolute left-0 top-0  animate-move-x-reverse  mt-4">
+        <div className="blue-image-section absolute left-0 top-0  animate-move-x-reverse  mt-4">
           <img
             className="w-16 md:w-24 lg:w-32 mt-36 m-2 h-10"
             src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
@@ -14,7 +14,8 @@ const Heading = () => {
           />
         </div>
         {/* Text Section */}
-        <div className="flex flex-col p-2 sm:ml-2  items-center  w-full justify-center m ">
+        {/* sm:ml-2 */}
+        <div className="flex flex-col p-2   items-center  w-full justify-center m ">
           <div className="flex ml-10 items-center">
             <div className=" mt-10 mx-5 bg-custom-brown text-xl md:text-2xl font-bold rounded-3xl p-4 text-center md:whitespace-nowrap">
               <h1 className="text-white">
@@ -26,19 +27,21 @@ const Heading = () => {
           </div>
         </div>
         {/* Orange Image */}
-        <div className="absolute  right-10 top-0 animate-move-x ">
+        <div className="orange-image-section absolute  right-10 top-0 animate-move-x ">
           <img
-            className="w-16 md:w-24 lg:w-32 mt-5 h-10 ml-8 mr-4"
+          // lg:w-32,ml-8 mr-4
+            className="w-16 md:w-24  mt-5 h-10 "
             src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-green.svg"
             alt="Polygon Green"
           />
         </div>
       </div>
       {/* section -2 */}
-      <div className="text-white   w-full mt-10 flex justify-center mx-4">
-        <h1 className="text-center  text-2xl md:text-5xl font-bold">
-          Transform Your Business into a <br />
-          <span className="text-yellow-400 ml-2"> Crore-Earning</span> Enterprise
+      {/* lg:whitespace-nowrap */}
+      <div className=" text-white flex flex-row   w-full mt-10  justify-center ">
+        <h1 className="text-center  text-3xl ml-7 md:text-5xl font-bold">
+          Transform Your Business into a 
+          <span className="text-yellow-400 "> Crore-Earning</span> Enterprise
        
         </h1>
       </div>
