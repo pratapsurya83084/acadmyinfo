@@ -1,10 +1,11 @@
 import React from "react";
-
-const StruggleDecisions = () => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+const Testimonials = () => {
   return (
     <section>
       <div>
-        <div className="flex flex-col">
+        <div className="flex flex-col justify-center items-center">
           <div>
             <h1 className="text-center mt-10 text-2xl font-bold">
               {" "}
@@ -95,10 +96,20 @@ const StruggleDecisions = () => {
               </span>
             </p>
           </div>
+
+          <div className="mt-4 flex justify-center items-center ">
+      <button className=" flex items-center   px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+        Action Now with 99
+        <FontAwesomeIcon icon={faGreaterThan} className="ml-2" />
+      </button>
+    </div>
+          
         </div>
+
+        
       </div>
     </section>
   );
 };
 
-export default StruggleDecisions;
+export default Testimonials;

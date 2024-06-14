@@ -8,7 +8,9 @@ import RealLifeBuissness from '../component/RealLifeBuissness'
 import SeminarSection from "../component/SeminarSection"
 import LearnInFourHour from '../component/LearnInFourHour'
 import BonusSection  from '../component/BonusSection'
-import StruggleDecisions  from '../component/StruggleDecisions'
+import Testimonials  from '../component/Testimonials'
+import TestimonialsParticipants from "../component/TestimonialsParticipants"
+import CoachSection from '../component/CoachSection'
 const Home = () => {
   return (
     <div>
@@ -21,7 +23,9 @@ const Home = () => {
       <SeminarSection/>
       <LearnInFourHour/>
       <BonusSection/>
-      <StruggleDecisions/>
+      <Testimonials/>
+      <TestimonialsParticipants/>
+    <CoachSection/>
     </div>
   );
 };

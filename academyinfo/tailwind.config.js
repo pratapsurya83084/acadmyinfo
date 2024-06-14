@@ -8,9 +8,9 @@ export default {
     extend: {
       colors: {
         'custom-brown': '#1c1917',
-        "custom-gray":"#262626",
-        "custom-black":"#262626",
-        "gray":"#57534e"
+        "custom-gray":"#27272a",
+        "custom-black":"#171717",
+        "gray":"#3f3f46"
       },
       // screens: {
       //   'sm': '510px',  // 280px + 230px

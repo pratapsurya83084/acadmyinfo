@@ -6,7 +6,7 @@ const LearnInFourHour = () => {
   return (
     <section>
       <div className="flex flex-col justify-center items-center mx-10 mt-10">
-        <h1 className="text-center">
+        <h1 className="text-center text-2xl font-bold">
           In just 4 hours, here's what you'll gain as a decision-maker
         </h1>
         <div className="flex justify-center mb-4">
