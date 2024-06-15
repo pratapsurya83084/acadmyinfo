@@ -15,6 +15,8 @@ import PictureSection from '../component/PictureSection'
 import GuaranteeCashback from '../component/GuaranteeCashback'
 import Promise   from '../component/Promise'
 import FAQ from '../component/FAQ'
+import CompanyLogo    from '../component/CompanyLogo'
+import  FooterBar  from "../component/FooterBar"
 const Home = () => {
   return (
     <div>
@@ -34,6 +36,8 @@ const Home = () => {
     <GuaranteeCashback/>
     <Promise/>
     <FAQ/>
+    <CompanyLogo/>
+    <FooterBar/>
     </div>
   );
 };

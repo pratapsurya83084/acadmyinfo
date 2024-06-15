@@ -10,7 +10,8 @@ export default {
         'custom-brown': '#1c1917',
         "custom-gray":"#27272a",
         "custom-black":"#171717",
-        "gray":"#3f3f46"
+        "gray":"#3f3f46",
+        "footerColor":"#18181b"
       },
       // screens: {
       //   'sm': '510px',  // 280px + 230px

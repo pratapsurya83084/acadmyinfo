@@ -4,10 +4,10 @@ const Promise = () => {
   return (
     <section>
       <div className="mx-10  lg:mx-20 mt-10  rounded-3xl bg-custom-brown flex flex-col justify-center items-center">
-        <img
+        {/* <img className="absolute  mb-[690px] ml-[300px]"
           src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
           alt=""
-        />
+        /> */}
         <div>
           {/* section 37 */}
           <h1 className="text-center text-2xl font-bold p-2">
