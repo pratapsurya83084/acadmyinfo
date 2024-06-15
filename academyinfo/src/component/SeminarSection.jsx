@@ -18,7 +18,7 @@ const SeminarSection = () => {
           {/* leftside text for large screen */}
           <div className="p-4">
             <h1 className="text-center font-bold">Who can join?</h1>
-          <div className=" rounded-xl px-2 bg-custom-black flex items-center space-x-2 mt-2">
+          <div className=" rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
@@ -26,7 +26,7 @@ const SeminarSection = () => {
           Individuals with startup ventures or established businesses
           </p>
         </div>
-        <div className=" rounded-xl px-2 bg-custom-black flex items-center space-x-2 mt-2">
+        <div className=" rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
@@ -34,7 +34,7 @@ const SeminarSection = () => {
           Owners of small enterprises seek to make informed decisions that lead to increased profitability and scalability.
           </p>
         </div>
-        <div className=" rounded-xl px-2 bg-custom-black flex items-center space-x-2 mt-2">
+        <div className=" rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
@@ -43,7 +43,7 @@ const SeminarSection = () => {
 
           </p>
         </div>
-        <div className=" rounded-xl px-2 bg-custom-black flex items-center space-x-2 mt-2">
+        <div className=" rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
@@ -56,34 +56,60 @@ const SeminarSection = () => {
           {/* right side text for large screen */}
           <div className="p-4">
             <h1 className="text-center font-bold">Who can't Join?</h1>
-          <div className="px-2 rounded-xl bg-custom-black flex items-center space-x-2 mt-2">
+          <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
-            <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
+          <div className=" h-6 w-6 flex justify-center">
+          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
+        </svg>
+        <span class="sr-only">Error icon</span>
+    </div>
+          </div>
           </div>
           <p className="p-4">
           If You Are Not Resistant To Adopting New Strategies
           </p>
         </div>
-        <div className="px-2 rounded-xl bg-custom-black flex items-center space-x-2 mt-2">
-          <div className="text-white h-6 w-6 flex justify-center">
-            <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
+        <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
+          <div className=" h-6 w-6 flex justify-center">
+          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
+        </svg>
+        <span class="sr-only">Error icon</span>
+    </div>
           </div>
           <p className="p-4">
           If You Are Not a Leader
           </p>
         </div>
 
-        <div className="px-2 rounded-xl bg-custom-black flex items-center space-x-2 mt-2">
+        <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
-            <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
+          <div className=" h-6 w-6 flex justify-center">
+          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
+        </svg>
+        <span class="sr-only">Error icon</span>
+    </div>
+          </div>
           </div>
           <p className="p-4">
           If You Are Not Serious About Your Business
           </p>
         </div>
-        <div className="px-2 rounded-xl bg-custom-black flex items-center space-x-2 mt-2">
+        <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
-            <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
+          <div className=" h-6 w-6 flex justify-center">
+          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
+        </svg>
+        <span class="sr-only">Error icon</span>
+    </div>
+          </div>
           </div>
           <p className="p-4">
           If You Are Not Unwilling To Engage In Active Learning and Implementation

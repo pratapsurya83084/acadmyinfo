@@ -4,7 +4,7 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const TestimonialsParticipants = () => {
   return (
     <div>
-      <div className="bg-custom-brown rounded-3xl pb-4">
+      <div className="bg-custom-brown rounded-3xl pb-4 ">
         <h1 className="text-2xl text-center font-bold p-6">
           {" "}
           Testimonials from Previous Participants
@@ -177,7 +177,12 @@ const TestimonialsParticipants = () => {
             </span>
           </button>
         </div>
-
+         {/* Blue polygon image */}
+         <img
+            className=" animate-move-x-reverse md:h-14 relative top-7 left-[300px] sm:top-8 sm:left-[600px] md:left-[700px] lg:left-[900px] xl:left-[1100px]  bottom-0 right-0 xl:mr-20"
+            src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
+            alt=""
+          />
       </div>
     </div>
   );

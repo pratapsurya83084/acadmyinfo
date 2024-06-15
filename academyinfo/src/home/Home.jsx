@@ -11,6 +11,10 @@ import BonusSection  from '../component/BonusSection'
 import Testimonials  from '../component/Testimonials'
 import TestimonialsParticipants from "../component/TestimonialsParticipants"
 import CoachSection from '../component/CoachSection'
+import PictureSection from '../component/PictureSection'
+import GuaranteeCashback from '../component/GuaranteeCashback'
+import Promise   from '../component/Promise'
+import FAQ from '../component/FAQ'
 const Home = () => {
   return (
     <div>
@@ -26,6 +30,10 @@ const Home = () => {
       <Testimonials/>
       <TestimonialsParticipants/>
     <CoachSection/>
+    <PictureSection/>
+    <GuaranteeCashback/>
+    <Promise/>
+    <FAQ/>
     </div>
   );
 };
