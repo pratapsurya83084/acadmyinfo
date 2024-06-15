@@ -31,11 +31,11 @@ const BuisnessChange = () => {
           <div className="relative w-full text-center">
             {/* blueimage */}
             {/* w-4 h-4 sm:w-6 sm:h-6 */}
-            <img
+            {/* <img
               className=" left-[-10px] sm:left-[-50px] animate-slideLeft "
               src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
               alt="Polygon Blue"
-            />
+            /> */}
             {/* orange image */}
             {/* <img
               className="absolute right-[-50px] animate-slideRight w-6 h-6"
@@ -142,18 +142,12 @@ const BuisnessChange = () => {
                 </li>
               </ul>
   
-              <div className="mt-10 flex justify-center bg-blue-600 text-white font-bold py-2 sm:py-1 px-4 sm:px-6 rounded-xl gap-10 md:gap-20 items-center">
-                {/* <a
-                  href="https://info172.mojo.page/business-breakthrough-seminar-scalexga"
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2"
-                > */}
-                <span className="">Action Now with ₹99</span>
-                <FontAwesomeIcon
-                  icon={faGreaterThan}
-                  className="bg-white p-2 text-blue-500 rounded-lg"
-                />
-                {/* </a> */}
-              </div>
+              <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
+        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
+        </span>
+        </button> 
+      </div>
             </div>
           </div>
         </div>

@@ -28,7 +28,9 @@ const CoachSection = () => {
          <p className="text-sm text-gray-300">Company Owner with a valuation of $2 Billion With profitable</p>
          </div>
          <div>
-          <h1 className='pl-32 mb-32'>icon</h1>
+          <h1 className='pl-32 mb-32 p-2'> 
+            <img src="https://icons.iconarchive.com/icons/froyoshark/enkel/512/Contacts-icon.png" alt="" />
+          </h1>
          </div>
         </div>
 
@@ -39,7 +41,9 @@ const CoachSection = () => {
          <p className="text-sm text-gray-300">Student base</p>
          </div>
          <div>
-          <h1 className='pl-32 mb-32'>icon</h1>
+          <h1 className='pl-32 mb-32'>
+            <img src="" alt="" />
+            </h1>
          </div>
         </div>
 
@@ -181,3 +185,7 @@ const CoachSection = () => {
 }
 
 export default CoachSection
+
+
+
+

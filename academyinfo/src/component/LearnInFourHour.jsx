@@ -87,14 +87,12 @@ const LearnInFourHour = () => {
           </div>
         </div>
 
-        <div className="w-full flex flex-row mb-4 justify-center items-center max-4">
-          <button className=" mt-10 bg-blue-600  p-5 font-bold lg:text-2xl rounded-2xl relative">
-            Action Now with ₹99
-            <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
-              <FontAwesomeIcon icon={faGreaterThan} />
-            </span>
-          </button>
-          </div>
+        <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
+        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
+        </span>
+        </button> 
+      </div>
 
       </div>
     </section>

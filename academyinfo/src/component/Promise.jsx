@@ -46,8 +46,9 @@ const Promise = () => {
             seminars receives more value than they anticipated. If, for any
             reason, you attend our seminar and feel that you haven't gained the
             expected value, I take full responsibility. Therefore, I promise a
-            complete refund of the seminar fee of Rs 99. Simply email me at
-            ceobishophumane@bisjhintus.com, and my team will promptly process
+            complete refund of the seminar fee of Rs 99. Simply email me at 
+
+           <span className="px-1 text-yellow-500">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
             your refund.
           </p>
           <p className="mt-10">Best Regards,<br />

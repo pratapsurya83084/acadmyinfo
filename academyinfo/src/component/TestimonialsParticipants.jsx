@@ -169,20 +169,20 @@ const TestimonialsParticipants = () => {
 
         </div>
 
-        <div className="mb-10 ">
-          <button className="flex justify-center items-center left-[60px] sm:left-36 md:left-40 lg:left-72 xl:left-[500px] 2xl:left-[1000px] mt-14 bg-blue-600   p-5 font-bold lg:text-2xl rounded-2xl relative">
-           <h1 className="px-20"> Action Now with ₹99</h1>
-            <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white ml-10 text-blue-600 px-4 py-2 rounded-xl mr-3">
-              <FontAwesomeIcon icon={faGreaterThan} />
-            </span>
-          </button>
-        </div>
-         {/* Blue polygon image */}
+        
+        <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
+        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
+        </span>
+        </button> 
+      </div>
+
+         {/* Blue polygon image
          <img
             className=" animate-move-x-reverse md:h-14 relative top-7 left-[300px] sm:top-8 sm:left-[600px] md:left-[700px] lg:left-[900px] xl:left-[1100px]  bottom-0 right-0 xl:mr-20"
             src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
             alt=""
-          />
+          /> */}
       </div>
     </div>
   );

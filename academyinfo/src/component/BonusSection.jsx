@@ -126,11 +126,11 @@ const BonusSection = () => {
 
 
      {/* Blue polygon image */}
-     <img
+     {/* <img
             className=" animate-move-x-reverse md:h-14 relative top-4 bottom-0 left-0 xl:ml-20"
             src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
             alt=""
-          />
+          /> */}
       </div>
      
     </section>
