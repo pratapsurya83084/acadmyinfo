@@ -4,8 +4,8 @@ const RealLifeBusiness = () => {
     return (
         // vidio-section
         <section className=" flex flex-col justify-center items-center p-4 text-white py-20">
-            <div className='text-center'>
-                <h1 className='text-2xl font-bold mb-4'>
+            <div className='text-section flex-col text-center'>
+                <h1 className=' text-2xl font-bold mb-4'>
                     Discover real-life business enthusiasts who transform straight from those who attended my coaching
                 </h1>
                 <div className="flex justify-center mb-4">
@@ -26,8 +26,9 @@ const RealLifeBusiness = () => {
                 </div>
             </div>
             {/* vidios */}
-            <div className=" flex flex-wrap justify-between mt-10 w-full">
-                <div className="w-full md:w-1/2 lg:w-1/2 mb-4 p-2">
+            {/* justify-between */}
+            <div className="vidio-section  mt-10 w-full">
+                <div className=" w-full md:w-[400px] lg:w-1/2 mb-4 p-2">
                     <div className="relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
                             className="absolute top-0 left-0 w-full h-full rounded-3xl"
@@ -37,7 +38,7 @@ const RealLifeBusiness = () => {
                         />
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 lg:w-1/2 mb-4 p-2">
+                <div className=" w-full md:w-[400px] lg:w-1/2 mb-4 p-2">
                     <div className="relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
                             className="absolute top-0 left-0 w-full h-full rounded-3xl"

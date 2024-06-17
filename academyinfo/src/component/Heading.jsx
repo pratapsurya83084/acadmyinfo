@@ -27,7 +27,7 @@ const Heading = () => {
           </div>
         </div>
         {/* Orange Image */}
-        <div className="orange-image-section absolute  right-10 top-0 animate-move-x ">
+        <div className="orange-image-section absolute left-[430px]  w-20 h-20 sm:left-[800px] md:left-[800px] lg:left-[800px] xl:left-[1200px]  2xl:left-[2450px] right-0 top-0 animate-move-x ">
           <img
           // lg:w-32,ml-8 mr-4
             className="w-16 md:w-24  mt-5 h-10 "

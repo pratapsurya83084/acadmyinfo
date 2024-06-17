@@ -63,11 +63,11 @@ body {
    justify-content: center;
    align-items: center; */
     margin-top: 30px;
-    margin-left: px;
+    margin-left:0 px;
     /* text-align: center;
 justify-items: center; */
     flex-wrap: wrap;
-    width: 450px;
+    width: 500px;
   }
 }
 
@@ -107,6 +107,8 @@ justify-items: center; */
   }
 }
 
+
+
 @media (min-width: 1024px) and (max-width: 1440px) {
   .heading-text-section {
     /* flex-direction: column;
@@ -119,7 +121,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .heading-text-section {
     /* flex-direction: column;
    justify-content: center;
@@ -131,6 +133,8 @@ justify-items: center; */
     align-items: center;
   }
 }
+
+
 
 /* blue-image-section animation-image */
 @media (min-width: 320px) and (max-width: 375px) {
@@ -174,8 +178,9 @@ justify-items: center; */
 @media (min-width: 320px) and (max-width: 375px) {
   .orange-image-section {
     margin-top: 30px;
-    margin-left: 90px;
-
+    
+    margin-left: px;
+   
     width: 40px;
   }
 }
@@ -236,14 +241,14 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .workshop-section {
   
     flex-direction: row;
     justify-content: center;
   }
 }
-@media (min-width: 1584px) and (max-width: 2560px) {
+@media (min-width: 1884px) and (max-width: 2560px) {
   .workshop-section {
    
     flex-direction: row;
@@ -259,13 +264,13 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1584px) and (max-width: 2560px) {
+@media (min-width: 1884px) and (max-width: 2560px) {
   .workshop-section .workshop-left-section {
     margin-left: 150px;
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   /* image and name section */
   .workshop-section .workshop-left-section {
     margin-left: 200px;
@@ -281,7 +286,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .left-text-section {
     /* margin-top: 100px; */
     font-size: 20px;
@@ -300,7 +305,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1584px) and (max-width: 2560px) {
+@media (min-width: 1884px) and (max-width: 2560px) {
   .workshop-section .right-section {
     /* padding-right: 100px; */
     display: flex;
@@ -311,7 +316,7 @@ justify-items: center; */
 }
 /* large x-large screen- left side */
 
-@media (min-width: 1584px) and (max-width: 2560px) {
+@media (min-width: 1884px) and (max-width: 2560px) {
   .left-text-section {
     /* padding-right: 100px; */
     width: 600px;
@@ -319,7 +324,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .workshop-section .right-section {
     /* padding-right: 100px; */
     display: flex;
@@ -328,7 +333,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .workshop-section .right-section {
     /* padding-right: 100px; */
     display: flex;
@@ -347,13 +352,9 @@ justify-items: center; */
 
 @media (min-width: 320px) and (max-width: 375px) {
   .buisness-section {
-    /* flex-direction: column;
-     justify-content: center;
-     align-items: center; */
     margin-top: 30px;
-    margin-left: 0px;
-
-    width: 510px;
+    margin-left: px;
+     width: 515px;
   }
 }
 
@@ -393,7 +394,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .buisness-section .image-section {
     height: 350px;
     width: 900px;
@@ -401,13 +402,13 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .buisness-section .image-text-section {
     flex-direction: row;
   }
 }
 
-@media (min-width: 1584px) and (max-width: 2560px) {
+@media (min-width: 1884px) and (max-width: 2560px) {
   .buisness-section .image-text-section {
     flex-direction: row;
   }
@@ -460,7 +461,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1584px) {
+@media (min-width: 1440px) and (max-width: 1884px) {
   .timeEnroll-section {
     margin-left: px;
 
@@ -468,7 +469,7 @@ justify-items: center; */
   }
 }
 
-@media (min-width: 1584px) and (max-width: 2560px) {
+@media (min-width: 1884px) and (max-width: 2560px) {
   .timeEnroll-section {
     margin-left: px;
 
@@ -480,101 +481,95 @@ justify-items: center; */
 
 /* ReallifeBuisness.jsx css */
 
-@media (min-width: 320px) and (max-width: 375px) {
-  .vidio-section {
-  
-    margin-top: 30px;
-    margin-left: px;
-
-    width: 510px;
-  }
+@media (min-width: 320px) and (max-width: 380px) {
+  .vidio-section{
+width: 500px;
+margin-left: 185px;
+}
+}
+@media (min-width: 380px) and (max-width:450px) {
+  .vidio-section{
+width: 500px;
+margin-left: 130px;
+}
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
-  .vidio-section {
-  
-    margin-top: 30px;
-    margin-left: px;
-
-    width: 550px;
-  }
+@media (min-width: 450px) and (max-width:768px) {
+  .vidio-section{
+display: flex;
+margin-left:10px;
+}
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
-  .vidio-section {
-    margin-top: 30px;
-    margin-left: 0px;
 
-    width: 550px;
-  }
+@media (min-width: 768px) and (max-width:800px) {
+  .vidio-section{
+display: flex;
+margin-left:130px;
+}
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .vidio-section {
-    margin-top: 20px;
-    margin-left: 10px;
-    text-align: center;
-    width: 850px;
-  }
+@media (min-width: 800px) and (max-width:900px) {
+  .vidio-section{
+display: flex;
+margin-left:100px;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-  .vidio-section .vidios {
-    margin-top: 30px;
-    gap: 20px;
-    margin-left: 20px;
-    width: 600px;
-    display: flex;
-  }
-}
-
- @media (min-width: 1024px) and (max-width: 1440px) {
-  .vidio-section {
-    margin-top: 30px;
-    margin-left: 10px;
-    text-align: center;
-    width: 970px;
-  } 
-} 
-
-@media (min-width: 1440px) and (max-width: 1584px) {
-  .vidio-section {
-    margin-top: 30px;
-    margin-left: 10px;
-    text-align: center;
-    width: 970px;
-  }
-}
-
-@media (min-width: 1584px) and (max-width: 2560px) {
-  .vidio-section {
-    display: flex;
-    margin-top: 30px;
-    margin-left: 100px;
-    width: 1200px;
-  }
-}
-
-/* laptop-screen */
-@media (min-width: 1440px) and (max-width: 2560px) {
-  .vidios {
-    display: flex;
-    /* margin-top: 30px; */
-    margin-left: 100px;
-    gap: 40px;
-    width: 1200px;
-  }
 }
 
 
 
-@media (min-width: 1024px) and (max-width: 1440px) {
-  .vidio-section .vidios {
-  
-    height: 400px;
-    width: 920px;
-
-    display: flex;
-    gap: 20px;
-   
-  }
+@media (min-width: 900px) and (max-width:1024px) {
+  .vidio-section{
+display: flex;
+margin-left:100px;
 }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+  .vidio-section{
+display: flex;
+margin-left:5px;
+}
+}
+
+@media (min-width:1440px) and (max-width:1884px) {
+  .vidio-section{
+display: flex;
+margin-left:5px;
+}
+}
+
+@media (min-width:1884px) and (max-width:2560px) {
+  .vidio-section{
+display: flex;
+margin-left:5px;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 380px) {
+  .text-section{
+width: 500px;
+margin-left: 185px;
+}
+}
+
+@media (min-width: 380px) and (max-width:450px) {
+  .text-section{
+width: 500px;
+margin-left: 130px;
+}
+}
+
+
+@media (min-width: 450px) and (max-width:768px) {
+  .text-section{
+
+    width: 500px;
+    margin-left: 130px;
+}
+}
+
+
+
+/* seminar.jsx css */

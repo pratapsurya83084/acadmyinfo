@@ -93,7 +93,7 @@ const BuisnessChange = () => {
                       ></path>
                     </svg>
                   </div>
-                  <span className="p-2 sm:p-4">
+                  <span className="p-2 sm:p-4 text-2xl">
                     Elevate decision-making for <b> strategic growth</b> and{" "}
                     <b> profitability.</b>
                   </span>
@@ -114,11 +114,13 @@ const BuisnessChange = () => {
                       ></path>
                     </svg>
                   </div>
-                  <span className="p-2 sm:p-4">
+                  
+                  <span className="p-2 sm:p-4 text-2xl">
                     Cultivate a culture of <b>innovation</b> and{" "}
                     <b>adaptability </b> to thrive in <b>dynamic markets.</b>{" "}
                   </span>
                 </li>
+
                 <li className="flex items-center space-x-2">
                   <div className="bg-green-600 p-1 rounded-full">
                     <svg
@@ -135,7 +137,7 @@ const BuisnessChange = () => {
                       ></path>
                     </svg>
                   </div>
-                  <span className="p-2 sm:p-4">
+                  <span className="p-2 sm:p-4 text-2xl">
                     Propel your business towards<b>sustainable success</b> and{" "}
                     <b>competitive advantage.</b>{" "}
                   </span>
