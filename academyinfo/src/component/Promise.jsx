@@ -24,7 +24,7 @@ const Promise = () => {
             >
               <path
                 d="M5 15 Q 50 0, 95 15"
-                stroke="orange"
+                stroke="green"
                 strokeWidth="5"
                 fill="none"
               />
@@ -48,7 +48,7 @@ const Promise = () => {
             expected value, I take full responsibility. Therefore, I promise a
             complete refund of the seminar fee of Rs 99. Simply email me at 
 
-           <span className="px-1 text-yellow-500">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
+           <span className="px-2 text-green-500">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
             your refund.
           </p>
           <p className="mt-10">Best Regards,<br />

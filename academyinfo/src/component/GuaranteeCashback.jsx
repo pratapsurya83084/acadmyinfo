@@ -17,7 +17,7 @@ const GuaranteeCashback = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="orange"
+              stroke="green"
               strokeWidth="5"
               fill="none"
             />

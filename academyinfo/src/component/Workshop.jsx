@@ -61,7 +61,7 @@ const Workshop = () => {
       <h1 className="text-3xl font-bold text-center">Why attend this workshop?</h1>
       <div className="flex justify-center mb-4">
         <svg width="300" height="20" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 15 Q 50 0, 95 15" stroke="orange" strokeWidth="5" fill="none" />
+          <path d="M5 15 Q 50 0, 95 15" stroke="green" strokeWidth="5" fill="none" />
         </svg>
       </div>
       {/* w-full */}

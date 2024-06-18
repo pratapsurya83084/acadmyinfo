@@ -16,14 +16,14 @@ const Testimonials = () => {
           <div className="flex justify-center mb-4">
             <svg
               width="300"
-              height="20"
+              height="30"
               viewBox="0 0 100 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M5 15 Q 50 0, 95 15"
-                stroke="orange"
+                stroke="green"
                 strokeWidth="5"
                 fill="none"
               />
@@ -35,7 +35,7 @@ const Testimonials = () => {
           {/* card1 */}
           <div className="p-8 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-custom-brown">
             <h1 className="text-center">
-              <b className="text-yellow-500 text-2xl">71 % of YOY growth</b>{" "}
+              <b className="text-green-500 text-2xl">71 % of YOY growth</b>{" "}
               (Just at 5 Months) <br />
               {/* 8 Million Customer{" "} */}
             </h1>
@@ -48,7 +48,7 @@ const Testimonials = () => {
               Startup
             </h5>
             <p className="bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
-              <span className="p-4 text-yellow-500 text-2xl font-bold">
+              <span className="p-4 text-green-500 text-2xl font-bold">
                 Trishita{" "}
               </span>
             </p>
@@ -57,7 +57,7 @@ const Testimonials = () => {
           {/* card2 */}
           <div className="p-8 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-custom-brown">
             <h1 className="text-center">
-              <b className="text-yellow-500 text-2xl ">60 Corer</b> <br />
+              <b className="text-green-500 text-2xl ">60 Corer</b> <br />
               (in the 3 years)
               {/* with mentoring Customer{" "} */}
             </h1>
@@ -70,7 +70,7 @@ const Testimonials = () => {
               Devine Corporation.
             </h5>
             <p className="bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
-              <span className="p-4 text-yellow-500 text-2xl font-bold">
+              <span className="p-4 text-green-500 text-2xl font-bold">
                 Jenica Yoo{" "}
               </span>
             </p>
@@ -79,7 +79,7 @@ const Testimonials = () => {
           {/* card3 */}
           <div className="p-8 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-custom-brown">
             <h1 className="text-center">
-              <b className="text-yellow-500 text-2xl">3 Coroe in </b> <br />
+              <b className="text-green-500 text-2xl">3 Coroe in </b> <br />
               (just 6 Months){" "}
             </h1>
             <img
@@ -91,22 +91,19 @@ const Testimonials = () => {
               Freelancer Design and Content Strategies
             </h5>
             <p className="bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
-              <span className="p-4 text-yellow-500 text-2xl font-bold">
+              <span className="p-4 text-green-500 text-2xl font-bold">
                 Deepak N R{" "}
               </span>
             </p>
           </div>
-
-          <div className="mt-4 flex justify-center items-center ">
-      <button className=" flex items-center   px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-        Action Now with 99
-        <FontAwesomeIcon icon={faGreaterThan} className="ml-2" />
-      </button>
-    </div>
-          
         </div>
 
-        
+        <div className="mt-2 p-4 flex justify-center items-center ">
+      <button className=" flex items-center text-xl   px-4 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+        Action Now with 99
+        <FontAwesomeIcon icon={faGreaterThan} className="ml-2 bg-white p-3 rounded text-blue-500" />
+      </button>
+    </div>
       </div>
     </section>
   );

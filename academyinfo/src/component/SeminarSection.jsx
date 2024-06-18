@@ -9,8 +9,8 @@ const SeminarSection = () => {
         {/* section 20 */}
         <h1 className="mt-5 p-4  flex justify-center text-center text-2xl py-6 font-bold ">Who Will Benefit Most from This Seminar?</h1>
         <div className="flex justify-center mb-4">
-        <svg width="300" height="20" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 15 Q 50 0, 95 15" stroke="orange" strokeWidth="5" fill="none" />
+        <svg width="300" height="30" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 15 Q 50 0, 95 15" stroke="green" strokeWidth="5" fill="none" />
         </svg>
       </div>
         {/* flex large screen */}
@@ -23,7 +23,7 @@ const SeminarSection = () => {
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
           <p className="p-4">
-          Individuals with startup ventures or established businesses
+          Individuals with startup ventures or established <br /> businesses
           </p>
         </div>
         <div className=" rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
@@ -31,7 +31,8 @@ const SeminarSection = () => {
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
           <p className="p-4">
-          Owners of small enterprises seek to make informed decisions that lead to increased profitability and scalability.
+          Owners of small enterprises seek to make informed decisions that lead to <br />
+           increased profitability and scalability.
           </p>
         </div>
         <div className=" rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
@@ -39,7 +40,8 @@ const SeminarSection = () => {
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
           </div>
           <p className="p-4">
-          Executives, managers, and professionals in corporate settings looking to enhance their leadership and decision-making skills
+          Executives, managers, and professionals in corporate settings looking to <br />
+           enhance their leadership and decision-making skills
 
           </p>
         </div>
@@ -59,11 +61,11 @@ const SeminarSection = () => {
           <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
           <div className=" h-6 w-6 flex justify-center">
-          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
         </svg>
-        <span class="sr-only">Error icon</span>
+        <span className="sr-only">Error icon</span>
     </div>
           </div>
           </div>
@@ -73,11 +75,11 @@ const SeminarSection = () => {
         </div>
         <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className=" h-6 w-6 flex justify-center">
-          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
         </svg>
-        <span class="sr-only">Error icon</span>
+        <span className="sr-only">Error icon</span>
     </div>
           </div>
           <p className="p-4">
@@ -88,11 +90,11 @@ const SeminarSection = () => {
         <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
           <div className=" h-6 w-6 flex justify-center">
-          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
         </svg>
-        <span class="sr-only">Error icon</span>
+        <span className="sr-only">Error icon</span>
     </div>
           </div>
           </div>
@@ -103,11 +105,11 @@ const SeminarSection = () => {
         <div className="px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
           <div className=" h-6 w-6 flex justify-center">
-          <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8   rounded-full dark:bg-red-800 ">
+        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z"/>
         </svg>
-        <span class="sr-only">Error icon</span>
+        <span className="sr-only">Error icon</span>
     </div>
           </div>
           </div>

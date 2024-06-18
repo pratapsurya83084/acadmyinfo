@@ -15,15 +15,15 @@ const BuisnessChange = () => {
           <div className="flex justify-center mb-4">
             <svg
               width="200"
-              height="15"
+              height="20"
               viewBox="0 0 100 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M5 15 Q 50 0, 95 15"
-                stroke="orange"
-                strokeWidth="5"
+                stroke="green"
+                strokeWidth="8"
                 fill="none"
               />
             </svg>

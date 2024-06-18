@@ -12,14 +12,14 @@ const TestimonialsParticipants = () => {
         <div className="flex justify-center mb-4">
           <svg
             width="300"
-            height="20"
+            height="30"
             viewBox="0 0 100 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="orange"
+              stroke="green"
               strokeWidth="5"
               fill="none"
             />
@@ -44,7 +44,7 @@ const TestimonialsParticipants = () => {
 
             <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-500">Sanjay Srivastav </b>
+                <b className="text-green-500">Sanjay Srivastav </b>
                 <h5> A' NICHE INFOTECH SOLUTIONS PVT. LTD. | THANE</h5>
               </span>
             </p>
@@ -68,7 +68,7 @@ const TestimonialsParticipants = () => {
 
             <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-500">JAGRUTI SHARMA </b>
+                <b className="text-green-500">JAGRUTI SHARMA </b>
                 <h5> GREENPLAST COMPOSTABLES | VADODARA</h5>
               </span>
             </p>
@@ -89,7 +89,7 @@ const TestimonialsParticipants = () => {
 
             <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-500">Srishti Lakhotia </b>
+                <b className="text-green-500">Srishti Lakhotia </b>
                 <h5> SRC CHEMICALS PVT LTD | PUNE</h5>
               </span>
             </p>
@@ -113,7 +113,7 @@ const TestimonialsParticipants = () => {
 
             <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-500">Premnath Shanmugam </b>
+                <b className="text-green-500">Premnath Shanmugam </b>
                 <h5> UITOUX SOLUTIONS PVT LTD | COIMBATORE
                 </h5>
               </span>
@@ -138,7 +138,7 @@ const TestimonialsParticipants = () => {
 
             <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-500">Dinesh Sajnani
+                <b className="text-green-500">Dinesh Sajnani
                 </b>
                 <h5> ENTERTAINMENT | MUMBAI</h5>
               </span>
@@ -161,7 +161,7 @@ const TestimonialsParticipants = () => {
 
             <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-500">Sumitra Bohra </b>
+                <b className="text-green-500">Sumitra Bohra </b>
                 <h5> VRINDA INC | CHENNAI</h5>
               </span>
             </p>

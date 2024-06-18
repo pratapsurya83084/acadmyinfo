@@ -21,7 +21,7 @@ const Heading = () => {
               <h1 className="text-white">
                 Student & Entrepreneurship Decision Revolution Seminar
                 <br />
-                <span className="text-yellow-400">4-Hour</span> On Online Mode
+                <span className="text-green-500">4-Hour</span> On Online Mode
               </h1>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Heading = () => {
       <div className=" text-white flex flex-row   w-full mt-10  justify-center ">
         <h1 className="text-center  text-3xl ml-7 md:text-5xl font-bold">
           Transform Your Business into a 
-          <span className="text-yellow-400 "> Crore-Earning</span> Enterprise
+          <span className="text-green-500 "> Crore-Earning</span> Enterprise
        
         </h1>
       </div>

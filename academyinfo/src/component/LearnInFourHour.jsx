@@ -19,7 +19,7 @@ const LearnInFourHour = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="orange"
+              stroke="green"
               strokeWidth="5"
               fill="none"
             />
@@ -28,7 +28,7 @@ const LearnInFourHour = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
           {/* card 1 */}
           <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
               01
             </div>
             <div className="font-normal px-4 py-7">
@@ -38,7 +38,7 @@ const LearnInFourHour = () => {
 
           {/* card 2 */}
           <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
               02
             </div>
             <div className="font-normal px-4 py-7">
@@ -48,7 +48,7 @@ const LearnInFourHour = () => {
 
           {/* card 3 */}
           <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
               03
             </div>
             <div className="font-normal px-4 py-7">
@@ -58,7 +58,7 @@ const LearnInFourHour = () => {
 
           {/* card 4 */}
           <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
               04
             </div>
             <div className="font-normal px-4 py-7">
@@ -68,7 +68,7 @@ const LearnInFourHour = () => {
 
           {/* card 5 */}
           <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
               05
             </div>
             <div className="font-normal px-4 py-7">
@@ -78,7 +78,7 @@ const LearnInFourHour = () => {
 
           {/* card 6 */}
           <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
               06
             </div>
             <div className="font-normal px-4 py-7">
