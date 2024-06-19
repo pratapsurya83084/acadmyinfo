@@ -32,7 +32,8 @@ const RealLifeBusiness = () => {
                     <div className=" relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
                             className="radius-yellow absolute top-0 left-0 w-full h-full rounded-3xl"
-                            src="https://www.youtube.com/embed/uUCbgHlGHmI"
+                            // src="https://www.youtube.com/embed/uUCbgHlGHmI"
+                            src="https://workshop.bishopadhikari.com/business_workshop/images/TESTIMONIALS%205.m4v"
                             title="Embedded Video"
                             allowFullScreen
                         />
