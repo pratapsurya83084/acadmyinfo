@@ -25,8 +25,8 @@ const TimeEnroll = () => {
   }, []);
 
   // Calculate minutes and seconds
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
+  // const minutes = Math.floor(totalSeconds / 90);
+  const seconds = totalSeconds % 90;
 
   // current day
   const currentDate = new Date();
@@ -60,12 +60,12 @@ const TimeEnroll = () => {
       {/* timer box */}
       <div className="flex flex-row gap-6 mt-4">
         {/* box1 */}
-        <div className="font-bold bg-custom-brown py-7 px-5 rounded-2xl">
+        {/* <div className=" radius-yellow font-bold bg-custom-brown py-7 px-5 rounded-2xl">
           <span className="font-bold text-2xl">{String(minutes).padStart(2, '0')}</span> <br />
           MINUTES
-        </div>
+        </div> */}
         {/* box2 */}
-        <div className="font-bold bg-custom-brown py-7 px-5 rounded-2xl">
+        <div className="radius-yellow font-bold bg-custom-brown py-7 px-5 rounded-2xl">
           <span className="font-bold text-2xl">{String(seconds).padStart(2, '0')}</span> <br />
           SECONDS
         </div>

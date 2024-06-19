@@ -17,11 +17,11 @@ const Heading = () => {
         {/* sm:ml-2 */}
         <div className="flex flex-col p-2   items-center  w-full justify-center m ">
           <div className="flex ml-10 items-center">
-            <div className=" mt-10 mx-5 bg-custom-brown text-xl md:text-2xl font-bold rounded-3xl p-4 text-center md:whitespace-nowrap">
-              <h1 className="text-white">
+            <div className="radius-yellow mt-10 mx-5 bg-custom-brown text-xl md:text-2xl font-bold rounded-3xl p-4 text-center md:whitespace-nowrap">
+              <h1 className="text-white ">
                 Student & Entrepreneurship Decision Revolution Seminar
                 <br />
-                <span className="text-green-500">4-Hour</span> On Online Mode
+                <span className="text-yellow-200">4-Hour</span> On Online Mode
               </h1>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Heading = () => {
       <div className=" text-white flex flex-row   w-full mt-10  justify-center ">
         <h1 className="text-center  text-3xl ml-7 md:text-5xl font-bold">
           Transform Your Business into a 
-          <span className="text-green-500 "> Crore-Earning</span> Enterprise
+          <span className="text-yellow-200 "> Crore-Earning</span> Enterprise
        
         </h1>
       </div>

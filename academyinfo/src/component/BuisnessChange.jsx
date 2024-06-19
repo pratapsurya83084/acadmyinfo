@@ -5,7 +5,7 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 const BuisnessChange = () => {
   return (
-    <section className="buisness-section  min-w-full relative flex-col  bg-custom-brown rounded-3xl mt-14 lg:mt-20 p-6">
+    <section className="radius-yellow buisness-section  w-full relative flex-col  bg-custom-brown rounded-3xl mt-14 lg:mt-20 p-6">
     <div className="container mx-auto max-w-custom-2xl">
       <div className="flex flex-col lg:flex-row lg:gap-14 justify-center lg:space-y-0 rounded-lg">
         <div className="flex flex-col items-center w-full space-y-4 mx-auto lg:mx-0">
@@ -22,13 +22,13 @@ const BuisnessChange = () => {
             >
               <path
                 d="M5 15 Q 50 0, 95 15"
-                stroke="green"
+                stroke="yellow"
                 strokeWidth="8"
                 fill="none"
               />
             </svg>
           </div>
-          <div className="relative w-full text-center">
+          {/* <div className="relative w-full text-center"> */}
             {/* blueimage */}
             {/* w-4 h-4 sm:w-6 sm:h-6 */}
             {/* <img
@@ -42,15 +42,15 @@ const BuisnessChange = () => {
               src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-green.svg"
               alt="Polygon Green"
             /> */}
-          </div>
+          {/* </div> */}
           {/* mx-auto */}
           {/* lg:flex-row */}
           <div className="image-text-section  flex flex-col    justify-center items-center w-full lg:w-3/4  space-y-2 lg:space-y-0">
             <div className="w-full lg:w-1/2  flex justify-center lg:justify-end p-4">
               <img   
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/updfated.svg"
+                src="public/Great Approach PICTURE.jpg"
                 alt="Updated"
-                className="image-section  w-[400px] h-[350px] sm:w-[441px] sm:h-[300px]"
+                className="image-section radius-yellow rounded-3xl w-[400px] h-[350px] sm:w-[441px] sm:h-[300px]"
               />
             </div>
   

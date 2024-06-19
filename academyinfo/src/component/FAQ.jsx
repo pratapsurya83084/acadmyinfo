@@ -69,8 +69,7 @@ const FAQ = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="green"
-              strokeWidth="5"
+              stroke="yellow"            strokeWidth="5"
               fill="none"
             />
           </svg>
@@ -87,7 +86,7 @@ const FAQ = () => {
               <div>
                 <h1
                   className={`mt-3 ${
-                    isOpen ? "text-green-300" : "text-white"
+                    isOpen ? "text-yellow-200" : "text-white"
                   }`}
                 >
                   What is the Entrepreneurship Decision Revolution Seminar
@@ -95,7 +94,7 @@ const FAQ = () => {
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{isOpen ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{isOpen ? "-" : "+"}</p>
               </div>
             </div>
             {isOpen && (
@@ -125,12 +124,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q2 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q2 ? "text-yellow-200" : "text-white"}`}>
                   Who should attend this seminar?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q2 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q2 ? "-" : "+"}</p>
               </div>
             </div>
             {q2 && (
@@ -159,12 +158,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q3 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q3 ? "text-yellow-200" : "text-white"}`}>
                   What will I learn during the seminar?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q3 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q3 ? "-" : "+"}</p>
               </div>
             </div>
             {q3 && (
@@ -193,12 +192,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q4 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q4 ? "text-yellow-200" : "text-white"}`}>
                   How will this seminar benefit me and my business?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q4 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q4 ? "-" : "+"}</p>
               </div>
             </div>
             {q4 && (
@@ -227,13 +226,13 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q5 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q5 ? "text-yellow-200" : "text-white"}`}>
                   Is this seminar suitable for beginners or advanced
                   entrepreneurs?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q5 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q5 ? "-" : "+"}</p>
               </div>
             </div>
             {q5 && (
@@ -261,12 +260,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q6 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q6 ? "text-yellow-200" : "text-white"}`}>
                   Will there be opportunities for networking and interaction?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q6 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q6 ? "-" : "+"}</p>
               </div>
             </div>
             {q6 && (
@@ -295,12 +294,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q7 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q7 ? "text-yellow-200" : "text-white"}`}>
                   What resources will be provided to participants?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q7 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q7 ? "-" : "+"}</p>
               </div>
             </div>
             {q7 && (
@@ -329,12 +328,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q8 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q8 ? "text-yellow-200" : "text-white"}`}>
                   What is the duration of the seminar?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q8 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q8 ? "-" : "+"}</p>
               </div>
             </div>
             {q8 && (
@@ -363,12 +362,12 @@ const FAQ = () => {
               className="py-2 flex justify-between cursor-pointer"
             >
               <div>
-                <h1 className={`mt-3 ${q9 ? "text-green-300" : "text-white"}`}>
+                <h1 className={`mt-3 ${q9 ? "text-yellow-200" : "text-white"}`}>
                   Is there a money-back guarantee?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q9 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q9 ? "-" : "+"}</p>
               </div>
             </div>
             {q9 && (
@@ -397,14 +396,14 @@ const FAQ = () => {
             >
               <div>
                 <h1
-                  className={`mt-3 ${q10 ? "text-green-300" : "text-white"}`}
+                  className={`mt-3 ${q10 ? "text-yellow-200" : "text-white"}`}
                 >
                   How do I register for the Entrepreneurship Decision Revolution
                   Seminar?
                 </h1>
               </div>
               <div>
-                <p className="text-green-500 text-5xl">{q10 ? "-" : "+"}</p>
+                <p className="text-yellow-200 text-5xl">{q10 ? "-" : "+"}</p>
               </div>
             </div>
             {10 && (

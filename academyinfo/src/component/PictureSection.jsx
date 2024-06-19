@@ -3,7 +3,7 @@ import React from "react";
 const PictureSection = () => {
   return (
     <section>
-      <div className="bg-custom-brown mt-5 rounded-3xl relative">
+      <div className="radius-yellow bg-custom-brown mt-5 rounded-3xl relative">
         {/* section-31 */}
         <h1 className="text-center text-2xl p-4 mt-5 lg:text-3xl font-bold">
           I'm Committed to Helping One Million Business Owners Make Better
@@ -19,7 +19,7 @@ const PictureSection = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="green"
+              stroke="yellow"
               strokeWidth="5"
               fill="none"
             />
@@ -28,51 +28,53 @@ const PictureSection = () => {
         <div className="images-coach w-full">
           <div className="w-full gap-y-3 md:gap-x-3 lg:gap-x-2 flex-col justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 lg:mx-1 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-32">
             <div>
+              <img 
+                className="radius-yellow h-[200px] w-[350px] rounded-3xl"
+                src="public/ABOUTUS4.jpg"
+                alt=""
+              />
+            </div>
+
+            <div>
               <img
-                className="h-[200px] rounded-3xl"
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/BSW0.webp"
+                className="radius-yellow h-[200px] w-[350px] rounded-3xl"
+                src="public\WhatsApp Image 2024-05-14 at 2.38.16 PM (1) (1).jpeg"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <img
+                className="radius-yellow h-[200px] rounded-3xl"
+                src="/public\WhatsApp Image 2024-05-14 at 2.44.45 PM (1).jpeg"
                 alt=""
               />
             </div>
             <div>
               <img
-                className="h-[200px] rounded-3xl"
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/BSW1.webp"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-[200px] rounded-3xl"
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/BSW2.webp"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-[200px] rounded-3xl"
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/BSW3.webp"
+                className="radius-yellow h-[200px] rounded-3xl"
+                src="public\WhatsApp Image 2024-06-19 at 10.55.51 AM.jpeg"
                 alt=""
               />
             </div>
             {/* 5th image */}
             <div className="col-span-1 sm:col-span-2 md:col-span-4 lg:col-span-4">
               <img
-                className="h-[190px] w-full object-cover rounded-3xl"
-                src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Picture100.webp"
+                className="radius-yellow h-[200px] sm:h-[300px] md:h-[400px] lg:h-[540px] xl:h-[580px] w-full object-cover rounded-3xl"
+                src="public\WhatsApp Image 2024-06-19 at 10.57.04 AM.jpeg"
                 alt=""
               />
             </div>
           </div>
         </div>
-        <h1 className="text-center font-bold text-xl lg:text-3xl p-8">
+        <h1 className="text-center  font-bold text-xl lg:text-3xl p-8">
           Because I've Faced Numerous Challenges Myself But I Build it ...
         </h1>
-        <img
-          className="md:absolute top-[600px] xl:top-[600px] 2xl:top-[400px] animate-move-x-reverse ml-10 md:h-14 bottom-0 xl:ml-20"
+        {/* <img
+          className="md:absolute top-[650px] xl:top-[600px] 2xl:top-[400px] animate-move-x-reverse ml-10 md:h-14 bottom-0 xl:ml-20"
           src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-green.svg"
           alt=""
-        />
+        /> */}
       </div>
 
       {/* <div className="flex justify-center mt-8">

@@ -17,7 +17,7 @@ const GuaranteeCashback = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="green"
+              stroke="yellow"
               strokeWidth="5"
               fill="none"
             />
@@ -26,7 +26,7 @@ const GuaranteeCashback = () => {
 
         </div>
        
-        <div className=' bg-custom-brown flex flex-col justify-center items-center mx-10 md:mx-10 lg:mx-20 rounded-3xl'>
+        <div className='radius-yellow bg-custom-brown flex flex-col justify-center items-center mx-10 md:mx-10 lg:mx-20 rounded-3xl'>
           <h2 className='text-center font-bold md:hidden p-6 text-2xl'>Our Guarantee</h2>
        
           <div className=' md:flex flex-row justify-center items-center gap-20'>

@@ -3,7 +3,7 @@ import React from "react";
 const Promise = () => {
   return (
     <section>
-      <div className="mx-10  lg:mx-20 mt-10  rounded-3xl bg-custom-brown flex flex-col justify-center items-center">
+      <div className="radius-yellow mx-10  lg:mx-20 mt-10  rounded-3xl bg-custom-brown flex flex-col justify-center items-center">
         {/* <img className="absolute  mb-[690px] ml-[300px]"
           src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
           alt=""
@@ -24,7 +24,7 @@ const Promise = () => {
             >
               <path
                 d="M5 15 Q 50 0, 95 15"
-                stroke="green"
+                stroke="yellow"
                 strokeWidth="5"
                 fill="none"
               />
@@ -48,12 +48,12 @@ const Promise = () => {
             expected value, I take full responsibility. Therefore, I promise a
             complete refund of the seminar fee of Rs 99. Simply email me at 
 
-           <span className="px-2 text-green-500">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
+           <span className="px-2 text-yellow-200">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
             your refund.
           </p>
           <p className="mt-10">Best Regards,<br />
            Bishop Adhikari</p>
-          <img  className="h-10" src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/website_logo-1-300x137-1.png" alt="" />
+          <img  className="h-10  w-[100px]" src="public\SIGNATURE.jpg" alt="" />
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const TestimonialsParticipants = () => {
   return (
     <div>
-      <div className="bg-custom-brown rounded-3xl pb-4 ">
+      <div className="bg-custom-brown radius-yellow rounded-3xl pb-4 ">
         <h1 className="text-2xl text-center font-bold p-6">
           {" "}
           Testimonials from Previous Participants
@@ -19,7 +19,7 @@ const TestimonialsParticipants = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="green"
+              stroke="yellow"
               strokeWidth="5"
               fill="none"
             />
@@ -28,35 +28,32 @@ const TestimonialsParticipants = () => {
         {/* section-29 */}
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 gap-10 mx-20 ">
           {/* cards 1 */}
-          <div className="p-2 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
-            {/* <img
-              className="h-56"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/topArrow.svg"
+          <div className=" p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="public\Rohan Mehta India.png"
               alt=""
-            /> */}
+            />
             <p className="text-center">
-              Being in business for the last 18 years, but the kind of clarity
-              on how to run the business, business model, hiring staff, getting
-              every member of the team to achieve business aspirational goals
-              has become very clear, and would love to thank Rajiv for this
-              clarity. Loved to be on board for coaching.
+            I am immensely grateful for the Bishop Adhikari course. The teachings have helped me navigate life's challenges with more grace and understanding. The instructors were knowledgeable and compassionate, making the entire experience enriching and impactful. This course has truly been a blessing.
+
             </p>
 
-            <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-green-500">Sanjay Srivastav </b>
-                <h5> A' NICHE INFOTECH SOLUTIONS PVT. LTD. | THANE</h5>
+                <b className="text-yellow-200">  Rohan Mehta, India </b>
+                <h5> Marketing Director at Reliance Industries.</h5>
               </span>
             </p>
           </div>
 
           {/* cards 2 */}
-          <div className="p-2 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
-            {/* <img
-              className="h-56"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/topArrow.svg"
+          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="/public\Olivia Watson England.jpeg"
               alt=""
-            /> */}
+            />
             <p className="text-center">
             Excellent. I am thankful to Mr.
              Rajiv as he has given me so much insight into
@@ -66,43 +63,42 @@ const TestimonialsParticipants = () => {
                Thanks to Success Gyan.
             </p>
 
-            <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-green-500">JAGRUTI SHARMA </b>
-                <h5> GREENPLAST COMPOSTABLES | VADODARA</h5>
+                <b className="text-yellow-200">Olivia Watson, England</b>
+                <h5> Senior Manager at GreenTech Solutions</h5>
               </span>
             </p>
           </div>
 
           {/* cards 3 */}
-          <div className="p-2 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
-            {/* <img
-              className="h-56"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/topArrow.svg"
+          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="public\Aisha Al Mansouri UAE .png"
               alt=""
-            /> */}
+            />
             <p className="text-center">
-            Insightful and structured approach especially was relatable to a
-            ll businesses at every stage. Was glad to be a part of it and hope I am able to do justice to this content and implement the entire process 
-            thoroughly in my business in the next 1 yr.
+            Taking the Bishop Adhikari course was one of the best decisions I have made. The content was enlightening, and the interactive sessions allowed for deep personal reflection. The sense of community and support was unparalleled. I feel more grounded and connected to my purpose.
+
             </p>
 
-            <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-green-500">Srishti Lakhotia </b>
-                <h5> SRC CHEMICALS PVT LTD | PUNE</h5>
+                <b className="text-yellow-200">Aisha Al Mansouri, UAE </b>
+                <h5> Project Manager at Emirates Group</h5>
               </span>
             </p>
           </div>
 
 
           {/* cards 4 */}
-          <div className="p-2 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
-            {/* <img
-              className="h-56"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/topArrow.svg"
+          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="/public\Anna Ivanova Russia .jpeg"
               alt=""
-            /> */}
+            />
             <p className="text-center">
             I have had sleepless nights thinking, it will be great
             
@@ -111,10 +107,10 @@ const TestimonialsParticipants = () => {
              Pumped up to see results on June 30, 2023.
             </p>
 
-            <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-green-500">Premnath Shanmugam </b>
-                <h5> UITOUX SOLUTIONS PVT LTD | COIMBATORE
+                <b className="text-yellow-200">Anna Ivanova, Russia  </b>
+                <h5>HR Specialist at Gazprom
                 </h5>
               </span>
             </p>
@@ -122,64 +118,108 @@ const TestimonialsParticipants = () => {
 
 
           {/* cards 5 */}
-          <div className="p-2 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
-            {/* <img
-              className="h-56"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/topArrow.svg"
+          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="/public\Max Müller Germany.jpg"
               alt=""
-            /> */}
+            />
             <p className="text-center">
-            Magically Custom-Tailored for SME’s! A bird’s eye holistic view of
-             where you are and where you always wanted to be.
-              Reflection of your past efforts, wins & failures,
-               learnings, visions, and dreams culminated with a universe-calling answer.
-             RAJIV IS HANDS-DOWN THE MENTOPRENEUR
+            I found the Bishop Adhikari course to be incredibly inspiring. The course material was well-structured and delivered with great expertise. It has opened my mind to new perspectives and has been a catalyst for personal growth. I am deeply appreciative of this journey.
             </p>
 
-            <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-green-500">Dinesh Sajnani
+                <b className="text-yellow-200"> Max Muller, Germany
                 </b>
-                <h5> ENTERTAINMENT | MUMBAI</h5>
+                <h5> Software Engineer at SAP</h5>
               </span>
             </p>
           </div>
 
 
           {/* cards 6 */}
-          <div className="p-2 rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
-            {/* <img
-              className="h-56"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/topArrow.svg"
+          <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="/public\Priya Patel India .jpeg"
               alt=""
-            /> */}
+            />
             <p className="text-center">
-            It’s was insightful, power-packed with knowledge, 
-            business is a science. In an approach towards this, we need to be more persistent than perfect. This myth Rajiv had broken, in the very first day. It’s just not a business program, it’s a self-evolution program. The combinat
-            ion of great content, theatrics, and follow-up is great.
+            The Bishop Adhikari course offered profound wisdom and practical guidance that has greatly impacted my life. The instructors created a supportive and engaging learning environment. I have gained invaluable tools for personal development and spiritual enlightenment.
+
             </p>
 
-            <p className="bg-custom-gray rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-green-500">Sumitra Bohra </b>
-                <h5> VRINDA INC | CHENNAI</h5>
+                <b className="text-yellow-200">Priya Patel, India 
+                </b>
+                <h5> Financial Analyst at Tata Consultancy Services</h5>
               </span>
             </p>
           </div>
 
-        </div>
+
+
+       {/* cards 7 */}
+       <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="/public\James Smith England.jpeg"
+              alt=""
+            />
+            <p className="text-center">
+            The Bishop Adhikari course provided a unique and powerful learning experience. The insights and teachings have helped me to
+             better understand myself and my purpose. The course was well-organized, and the community aspect added a wonderful layer of support and connection.
+            </p>
+
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+              <span className=" ">
+                <b className="text-yellow-200">James Smith, England
+ 
+                </b>
+                <h5> Director at Global Trade Corp</h5>
+              </span>
+            </p>
+          </div>
+
+ {/* cards 8 */}
+ <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
+            <img
+              className="h-56 rounded-3xl"
+              src="/public\Elena Volkova  Russia.png"
+              alt=""
+            />
+            <p className="text-center">
+            The Bishop Adhikari course has been a profound journey of self-discovery and empowerment. The comprehensive curriculum and supportive community helped me gain new perspectives on both personal and professional challenges. This experience has been invaluable, and I highly recommend it to anyone looking to make meaningful changes in their life.
+
+            </p>
+
+            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+              <span className=" ">
+                <b className="text-yellow-200">Elena Volkova, Russia
+ 
+                </b>
+                <h5> Chief Financial Officer at Rosneft</h5>
+              </span>
+            </p>
+    </div>
+
+
+
+  </div>
 
         
         <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
-        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
+        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6  rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 radius-yellow rounded-lg "/>
         </span>
         </button> 
       </div>
 
          {/* Blue polygon image
          <img
-            className=" animate-move-x-reverse md:h-14 relative top-7 left-[300px] sm:top-8 sm:left-[600px] md:left-[700px] lg:left-[900px] xl:left-[1100px]  bottom-0 right-0 xl:mr-20"
+            className=" anima rounded-3xlte-move-x-reverse md:h-14 relative top-7 left-[300px] sm:top-8 sm:left-[600px] md:left-[700px] lg:left-[900px] xl:left-[1100px]  bottom-0 right-0 xl:mr-20"
             src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
             alt=""
           /> */}

@@ -27,8 +27,8 @@ const OfferPrice = () => {
   }, []);
 
   // Calculate minutes and seconds
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
+  // const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 90;
 
   return (
     <section>
@@ -41,18 +41,18 @@ const OfferPrice = () => {
           <h2 className="text-3xl font-bold  p-2">Regular Price: ₹999/- </h2>
         </div>
         <div>
-          <h1 className="text-3xl font-bold  p-3 text-green-500 bg-custom-gray rounded-xl">TODAY'S OFFER PRICE: ₹99/-</h1>
+          <h1 className="radius-yellow text-3xl font-bold  p-3 text-yellow-200 bg-custom-gray rounded-xl">TODAY'S OFFER PRICE: ₹99/-</h1>
         </div>
 
 
           {/*15 minuites decrease upto 00 and again after start 15 minuites restart again  */}
         <div className="flex flex-row gap-10 mt-5 ">
-          <div className="bg-gray p-5 rounded-xl font-bold">
+          {/* <div className="radius-yellow bg-gray p-5 rounded-xl font-bold">
             <span className="ml-5 text-2xl">{String(minutes).padStart(2, '0')}</span> <br />
             MINUTES
-          </div>
+          </div> */}
 
-          <div className="bg-gray p-5 rounded-xl font-bold">
+          <div className="radius-yellow bg-gray p-5 rounded-xl font-bold">
             <span className="ml-5 text-2xl">{String(seconds).padStart(2, '0')}</span> <br />
             SECONDS
           </div>

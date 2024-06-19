@@ -19,16 +19,15 @@ const LearnInFourHour = () => {
           >
             <path
               d="M5 15 Q 50 0, 95 15"
-              stroke="green"
-              strokeWidth="5"
+              stroke="yellow"             strokeWidth="5"
               fill="none"
             />
           </svg>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
           {/* card 1 */}
-          <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+          <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               01
             </div>
             <div className="font-normal px-4 py-7">
@@ -37,8 +36,8 @@ const LearnInFourHour = () => {
           </div>
 
           {/* card 2 */}
-          <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+          <div className=" radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               02
             </div>
             <div className="font-normal px-4 py-7">
@@ -47,8 +46,8 @@ const LearnInFourHour = () => {
           </div>
 
           {/* card 3 */}
-          <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+          <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               03
             </div>
             <div className="font-normal px-4 py-7">
@@ -57,8 +56,8 @@ const LearnInFourHour = () => {
           </div>
 
           {/* card 4 */}
-          <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+          <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               04
             </div>
             <div className="font-normal px-4 py-7">
@@ -67,8 +66,8 @@ const LearnInFourHour = () => {
           </div>
 
           {/* card 5 */}
-          <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+          <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               05
             </div>
             <div className="font-normal px-4 py-7">
@@ -77,8 +76,8 @@ const LearnInFourHour = () => {
           </div>
 
           {/* card 6 */}
-          <div className="max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
-            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-green-500 mb-7 rounded-tr-2xl rounded-br-2xl">
+          <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
+            <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               06
             </div>
             <div className="font-normal px-4 py-7">
@@ -87,7 +86,7 @@ const LearnInFourHour = () => {
           </div>
         </div>
 
-        <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
+        <div className=" flex justify-center sm: mt-8 py-2 sm:px-2">
         <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
          <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
         </span>

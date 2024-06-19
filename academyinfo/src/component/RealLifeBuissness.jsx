@@ -18,7 +18,7 @@ const RealLifeBusiness = () => {
                     >
                         <path
                             d="M5 15 Q 50 0, 95 15"
-                            stroke="green"
+                            stroke="yellow"
                             strokeWidth="5"
                             fill="none"
                         />
@@ -29,9 +29,9 @@ const RealLifeBusiness = () => {
             {/* justify-between */}
             <div className="vidio-section  mt-10 w-full">
                 <div className=" w-full md:w-[400px] lg:w-1/2 mb-4 p-2">
-                    <div className="relative" style={{ paddingBottom: '56.25%' }}>
+                    <div className=" relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
-                            className="absolute top-0 left-0 w-full h-full rounded-3xl"
+                            className="radius-yellow absolute top-0 left-0 w-full h-full rounded-3xl"
                             src="https://www.youtube.com/embed/uUCbgHlGHmI"
                             title="Embedded Video"
                             allowFullScreen
@@ -41,7 +41,7 @@ const RealLifeBusiness = () => {
                 <div className=" w-full md:w-[400px] lg:w-1/2 mb-4 p-2">
                     <div className="relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
-                            className="absolute top-0 left-0 w-full h-full rounded-3xl"
+                            className="radius-yellow absolute top-0 left-0 w-full h-full rounded-3xl"
                             src="https://www.youtube.com/embed/UbLMpAnYWz0"
                             title="Embedded Video"
                             allowFullScreen

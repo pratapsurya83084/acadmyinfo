@@ -3,7 +3,10 @@
 @import "tailwindcss/utilities";
 
 
-
+.radius-yellow{
+  border: solid yellow
+  
+}
 /* footer text blinking 1 second each */
 .blinking {
   animation: blinker 1s linear infinite;
