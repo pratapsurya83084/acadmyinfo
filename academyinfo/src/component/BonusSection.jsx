@@ -4,7 +4,7 @@ import OfferPrice  from './OfferPrice'
 const BonusSection = () => {
   return (
     <section>
-      <div className=" flex flex-col justify-center items-center  mt-10 bg-custom-brown rounded-3xl">
+      <div className="radius-yellow flex flex-col justify-center items-center  mt-10 bg-custom-brown rounded-3xl">
         <h1 className=" mt-10 text-center text-2xl font-bold">
           Unlock Exclusive Bonuses When You Register Before the Timer Expires!
         </h1>
@@ -28,7 +28,7 @@ const BonusSection = () => {
         <div className="mb-10 mx-10 mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
           {/* card 1 */}
 
-          <div className="max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
+          <div className=" max-w-sm bg-gray border-dashed border-2 border-yellow-200  rounded-3xl p-4">
             <h1 className="text-center  mb-2">SOLUTION COURSE #1</h1>
             <h2 className="text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at: ₹798/-</h2>
             <h5 className="text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
