@@ -1,5 +1,6 @@
 import React from 'react'
- 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const FooterBar = () => {
   return (
     <footer>
@@ -14,11 +15,15 @@ const FooterBar = () => {
          <p className=' font-bold px-2 py-'>Enrollment closes on 15 JUN</p>
       </div>
       
-     <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
-        <button className="bg-blue-600   text-white text-xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-          Join Now for ₹99
-        </button>
-      </div>
+      <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
+          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <FontAwesomeIcon
+              icon={faGreaterThan}
+              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+            />
+          </button>
+        </div>
       </div>
     </footer>
   )

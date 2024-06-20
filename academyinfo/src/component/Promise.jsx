@@ -12,7 +12,7 @@ const Promise = () => {
           {/* section 37 */}
           <h1 className="text-center text-2xl font-bold p-2">
             {" "}
-            My Commitment to You
+            My Decisions
           </h1>
           <div className="flex justify-center mb-4">
             <svg
@@ -47,15 +47,15 @@ const Promise = () => {
             reason, you attend our seminar and feel that you haven't gained the
             expected value, I take full responsibility. Therefore, I promise a
             complete refund of the seminar fee of Rs 99. Simply email me at 
-
-           <span className="px-2 text-yellow-200">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
+            {/* px-2 */}
+           <span className=" text-yellow-200">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
             your refund.
           </p>
           <p className="mt-10">Best Regards,<br />
            Bishop Adhikari</p>
-          <img  className="h-10  w-[100px]" src="public\SIGNATURE.jpg" alt="" />
+          <img  className="h-[80px] mt-2 w-[150px]" src="public\SIGNATURE.jpg" alt="" />
         </div>
-      </div>
+      </div> 
     </section>
   );
 };
