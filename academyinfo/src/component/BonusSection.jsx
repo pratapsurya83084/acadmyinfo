@@ -116,7 +116,7 @@ const BonusSection = () => {
             <h1 className="text-center  mb-2">SOLUTION COURSE #10</h1>
             <h2 className="text-center rounded-xl text-xl text-black font-bold m-2 bg-yellow-200 p-2">Priced at:₹ 954/-</h2>
             <h5 className="text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
-            6 Strategies Leveraging Social Platforms to Boost Your Brand and Drive Sales.
+            6 Strategies Leveraging Social Platforms to Boost Your Brand and Drive Sales
             </h5>
           </div>
 

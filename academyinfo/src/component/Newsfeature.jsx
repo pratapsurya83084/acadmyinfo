@@ -25,7 +25,7 @@ const Newsfeature = () => {
       FEATURED IN
     </h1>
     {/* mx-5 */}
-    <div className="image-crousal-section flex-row justify-center items-center  radius-yellow w-[400px] ml-[60px] sm:w-[500px] sm:ml-[80px] md:w-[700px]  md:ml-[88px]  lg:w-[800px] lg:ml-[100px] xl:w-[1400px]  xl:ml-[29px] 2xl:ml-[50px] 2xl:w-[2450px]     h-32 2xl:h-[300px] rounded-3xl bg-custom-brown  lg:mx-36 md:gap-10">
+    <div className="image-crousal-section flex-row justify-center items-center  radius-yellow w-[400px] ml-[60px] sm:w-[500px] sm:ml-[80px] md:w-[700px]  md:ml-[88px]  lg:w-[800px] lg:ml-[100px] xl:w-[1400px]  xl:ml-[38px] 2xl:ml-[50px] 2xl:w-[2460px]     h-32 2xl:h-[300px] rounded-3xl bg-custom-brown  lg:mx-36 md:gap-10">
       <Slider {...settings} className="flex flex-row p-2">
         {/* First slide */}
         <div className="p-2">
@@ -34,7 +34,7 @@ const Newsfeature = () => {
             <div className="w-50 ">
               <img
                 className="h-[83px] w-[180px] md:w-[280px] pb-3 max-w-full"
-                src="https://download.logo.wine/logo/BBC_News/BBC_News-Logo.wine.png"
+                src="\public\BBC_News-Logo.wine.png"
                 alt="Slide 1"
               />
             </div>
@@ -42,7 +42,7 @@ const Newsfeature = () => {
             <div className="w-50 mt-2 pb-2">
               <img
                 className="h-14 max-w-full"
-                src="https://th.bing.com/th/id/OIP.4i0cLPpxtY13qimcDOnHWAHaEK?rs=1&pid=ImgDetMain"
+                src="\public\sky_news_img.jpg"
                 alt="Slide 2"
               />
             </div>
@@ -50,7 +50,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-14 mt-2 max-w-full pb-2 pl-2"
-                src="https://th.bing.com/th/id/OIP.0HPmeGo9I93VgLHCV5HlUQHaEH?rs=1&pid=ImgDetMain"
+                src="\public\timesof_india.jpg"
                 alt="Slide 3"
               />
             </div>
@@ -63,7 +63,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-12 max-w-full"
-                src="https://bestmediainfo.com/uploads/2018/12/THE-HINDU-Logo_4.jpg"
+                src="\public\the_hindu_newsimg.webp"
                 alt="Slide 2"
               />
             </div>
@@ -71,7 +71,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-14 max-w-full"
-                src="https://lh3.googleusercontent.com/zLlf0nImq-9dgohTcp52GaAfUXOPg0UsRtcaCYJcIJkb4yqHPtKQtf9z43-riSaJLLM"
+                src="\public\gulf_news_img.png"
                 alt="Slide 2"
               />
             </div>
@@ -79,7 +79,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-12 max-w-full"
-                src="https://photos.live-tv-channels.org/tv-logo/gb-news-3616.jpg"
+                src="\public\britan_new_img.jpg"
                 alt="Slide 2"
               />
             </div>
@@ -92,7 +92,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-12 max-w-full"
-                src="https://awards.social/wp-content/uploads/2017/12/euronews-logo-768x230.jpg"
+                src="\public\euronews-logo-768x230.jpg"
              alt="slide 3"
              />
             </div>
@@ -100,7 +100,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-14 max-w-full"
-                src="https://1.bp.blogspot.com/-RYpXAD_Jwws/WfNPAxtGSkI/AAAAAAAAADE/HSpC-kxi6dQMfbAWBrYaG7tVqNsa0Cl1wCLcBGAs/s1600/news18.jpg"
+                src="\public\news18_img.jpg"
                 alt="Slide 3"
               />
             </div>
@@ -108,7 +108,7 @@ const Newsfeature = () => {
             <div className="w-50">
               <img
                 className="h-12 max-w-full"
-                src="https://www.thenationalnews.com/resizer/uy6Ivt5_95KXMCfOndgf2KcHV1A=/arc-photo-thenational/eu-central-1-prod/public/AAOEFYKSMFFFDDYXHCN67KEX44.jpg"
+                src="\public\uae_img.avif"
                 alt="Slide 3"
               />
             </div>

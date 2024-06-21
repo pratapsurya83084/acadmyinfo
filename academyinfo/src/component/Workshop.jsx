@@ -30,7 +30,7 @@ const Workshop = () => {
           <div>
             <div className="w-full text-center p-3">
               <span className="font-bold">India’s “Decision Entrepreneurship Coach”</span> Trained over
-              <span className="font-bold px-2"> 1, 90,000</span> Students & Business Enthusiast for <span className="font-bold">5 Years.</span>
+              <span className="font-bold "> 1, 90,000</span> Students & Business Enthusiast for <span className="font-bold">5 Years.</span>
             </div>
           </div>
           {/* Section 6 */}
@@ -48,7 +48,7 @@ const Workshop = () => {
           {/* action now button */}
         <div>
           <button className="lg:hidden  flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-2xl rounded-2xl relative  focus:border">
-            Action Now with ₹29
+            Action Now with ₹299
             <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
               <FontAwesomeIcon icon={faGreaterThan} />
             </span>
@@ -109,7 +109,7 @@ const Workshop = () => {
      {/* action now button */}
      <div className="w-full">
           <button className="hidden  lg:flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-2xl rounded-2xl relative focus:border">
-            Action Now with ₹29
+            Action Now with ₹299
             <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
               <FontAwesomeIcon icon={faGreaterThan} />
             </span>

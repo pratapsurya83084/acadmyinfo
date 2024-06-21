@@ -34,7 +34,7 @@ const TimeEnroll = () => {
 
 const currentDate = new Date();
 const futureDate = new Date();
-futureDate.setDate(currentDate.getDate() + 15);
+futureDate.setDate(currentDate.getDate() + 16);
 
 const options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
 const formattedDate = futureDate.toLocaleDateString("en-US", options);

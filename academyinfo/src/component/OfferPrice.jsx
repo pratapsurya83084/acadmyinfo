@@ -39,10 +39,10 @@ const OfferPrice = () => {
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold  p-2">Regular Price: ₹999/- </h2>
+          <h2 className="text-3xl font-bold  p-2">Regular Price: ₹2,499/- </h2>
         </div>
         <div>
-          <h1 className="radius-yellow text-3xl font-bold  p-3 text-yellow-200 bg-custom-gray rounded-xl">TODAY'S OFFER PRICE: ₹199/-</h1>
+          <h1 className="radius-yellow text-3xl font-bold  p-3 text-yellow-200 bg-custom-gray rounded-xl">TODAY'S OFFER PRICE: ₹299/-</h1>
         </div>
 
 
@@ -64,7 +64,7 @@ const OfferPrice = () => {
         {/* action now button */}
         <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2 mb-6">
           <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
-            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <span className="flex-grow text-center">Action Now for ₹299</span>
             <FontAwesomeIcon
               icon={faGreaterThan}
               className="bg-white text-blue-500 px-4 p-2 rounded-lg"

@@ -122,7 +122,7 @@ const Testimonials = () => {
        {/* action now button */}
        <div className="flex justify-center mt-4 sm:mt-4 mb-20 py-2 sm:px-2">
           <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
-            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <span className="flex-grow text-center">Action Now for ₹299</span>
             <FontAwesomeIcon
               icon={faGreaterThan}
               className="bg-white text-blue-500 px-4 p-2 rounded-lg"

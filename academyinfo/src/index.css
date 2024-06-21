@@ -27,6 +27,9 @@
 body {
   background-color: black;
   color: white;
+  /* touch-action: none; */
+  user-select: none;
+  
 }
 
 @keyframes move-x {
@@ -575,3 +578,50 @@ margin-left: 130px;
 
 
 /* seminar.jsx css */
+
+
+
+
+
+
+
+
+/* success-achieved-section  w-[520px] */
+
+/* .success-achieved{
+  margin-left: 10px;
+} */
+
+/* @media(min-width:320px) and (max-width:375px){
+.success-achieved{
+
+width:520px;
+}
+}
+
+@media(min-width:375px) and (max-width:425px){
+  .success-achieved{
+  
+  width:550px;
+  }
+  } */
+  @media (min-width: 320px) and (max-width: 375px) {
+    .success-achieved{
+  width: 500px;
+  margin-left: 10px;
+  }
+  }
+  @media (min-width: 375px) and (max-width:450px) {
+    .success-achieved{
+  width: 550px;
+  margin-left: 1px;
+  }
+  }
+  
+  @media (min-width: 450px) and (max-width:768px) {
+    .success-achieved{
+  /* display: flex; */
+  margin-left:10px;
+  }
+  }
+  

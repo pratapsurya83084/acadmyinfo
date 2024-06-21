@@ -43,24 +43,28 @@ const CoachSection = () => {
   </div>
 </div> */}
 
-        <div className="flex flex-col justify-between items-center mt-32 radius-yellow bg-custom-brown md:flex-row h-52 lg:w-[600px] w-full rounded-3xl p-4 md:p-8">
+        <div className="flex flex-col justify-between items-center mt-36 radius-yellow bg-custom-brown md:flex-row h-52 lg:w-[600px] w-full rounded-3xl p-4 md:p-8">
           <div className="flex-shrink-0 flex flex-col items-center md:items-start relative  bottom-24 lg:right-32 ">
             <img
               src="/public/Get Acquainted with Your Coach.png"
               className=" radius-yellow rounded-3xl lg:h-[200px] h-[180px]"
               alt=""
             />
-            <div className="lg:ml-28 mt-2">
-              <p className="mt-4 md:mt-2 text-center md:text-left font-bold text-xl ">
-                Bishop Adhikari
+            <div className="lg:ml-28 mt-3">
+              <p className="mt-4   md:mt-2 text-center md:text-left font-bold text-xl ">
+                Bishop Adhikari  <br />
+                <span className="md:hidden">   Decision Business Coach</span>
               </p>
-              <p className="md:hidden mt-2 md:mt-2 text-center md:text-left font-bold text-xl ">
-                Decision Business Coach
+              <p className="hidden md:flex mt-2 md:mt-2 text-center md:text-left font-bold text-xl ">
+              Decision Business Coach
               </p>
             </div>
           </div>
-          <div className="hidden md:flex md:mt-0 md:ml- flex-grow  items-center justify-center md:justify-start">
-            <h1 className="text-2xl font-bold text-center">Decision Business Coach</h1>
+          <div className=" hidden  md:flex md:mt-0 md:ml- flex-grow  items-center justify-center md:justify-start">
+            {/* <h1 className="text-2xl font-bold text-center">Decision Business Coach</h1> */}
+         <img 
+         className="h-40 md:ml-40 lg:ml-2 bg-yellow-300 rounded-3xl p-2"
+         src="\public\buisness_coach_icon.png" alt="" />
           </div>
         </div>
 

@@ -31,7 +31,7 @@ const RealLifeBusiness = () => {
                 <div className=" w-full md:w-[400px] lg:w-1/2 mb-4 p-2">
                     <div className=" relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
-                            className="radius-yellow absolute top-0 left-0 w-full h-full rounded-3xl"
+                            className="radius-yellow absolute top-0 left-0 w-full h-full 2xl:h-[600px]   rounded-3xl"
                             // src="https://www.youtube.com/embed/uUCbgHlGHmI"
                             src="https://workshop.bishopadhikari.com/business_workshop/images/TESTIMONIALS%205.m4v"
                             title="Embedded Video"
@@ -42,7 +42,7 @@ const RealLifeBusiness = () => {
                 <div className=" w-full md:w-[400px] lg:w-1/2 mb-4 p-2">
                     <div className="relative" style={{ paddingBottom: '56.25%' }}>
                         <iframe
-                            className="radius-yellow absolute top-0 left-0 w-full h-full rounded-3xl"
+                            className="radius-yellow absolute top-0 left-0 w-full h-full 2xl:h-[600px]    rounded-3xl"
                             src="https://www.youtube.com/embed/UbLMpAnYWz0"
                             title="Embedded Video"
                             allowFullScreen
