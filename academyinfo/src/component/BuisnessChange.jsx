@@ -5,7 +5,7 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 const BuisnessChange = () => {
   return (
-    <section className="radius-yellow buisness-section  w-full relative flex-col  bg-custom-brown rounded-3xl mt-14 lg:mt-20 p-6">
+    <section className="radius-yellow buisness-section    w-full relative flex-col   bg-custom-brown rounded-3xl mt-14 lg:mt-20 p-6">
     <div className="container mx-auto max-w-custom-2xl">
       <div className="flex flex-col lg:flex-row lg:gap-14 justify-center lg:space-y-0 rounded-lg">
         <div className="flex flex-col items-center w-full space-y-4 mx-auto lg:mx-0">
@@ -28,35 +28,20 @@ const BuisnessChange = () => {
               />
             </svg>
           </div>
-          {/* <div className="relative w-full text-center"> */}
-            {/* blueimage */}
-            {/* w-4 h-4 sm:w-6 sm:h-6 */}
-            {/* <img
-              className=" left-[-10px] sm:left-[-50px] animate-slideLeft "
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
-              alt="Polygon Blue"
-            /> */}
-            {/* orange image */}
-            {/* <img
-              className="absolute right-[-50px] animate-slideRight w-6 h-6"
-              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-green.svg"
-              alt="Polygon Green"
-            /> */}
-          {/* </div> */}
-          {/* mx-auto */}
-          {/* lg:flex-row */}
-          <div className="image-text-section  flex flex-col    justify-center items-center w-full lg:w-3/4  space-y-2 lg:space-y-0">
-            <div className="w-full lg:w-1/2  flex justify-center lg:justify-end p-4">
-              <img   
-                src="public/Great Approach PICTURE.jpg"
-                alt="Updated"
-                className="image-section radius-yellow rounded-3xl w-[400px] h-[350px] sm:w-[441px] sm:h-[300px]"
-              />
-            </div>
+         
+         {/* main body */}
+          <div className="image-text-section  flex flex-col lg:flex-row   justify-center items-center w-full lg:w-3/4  space-y-2 lg:space-y-0">
+          <div className="w-full  flex justify-center items-center p-4">
+    <img
+      src="public/Great Approach PICTURE.jpg"
+      alt="Updated"
+      className="radius-yellow rounded-3xl w-[500px] h-[400px]"
+    />
+  </div>
   
-            <div className="w-full lg:w-1/ p-4">
-              <ul className="space-y-4 text-white text-lg sm:text-xl">
-                <li className="flex items-center space-x-2">
+            <div className="w-full flex-col justify-center items-center lg:w-1/ p-4">
+              <ul className="space-y- text-white text-lg sm:text-xl space-y-">
+                <li className="flex items-center space-x-1">
                   <div className="bg-green-600 p-1 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -72,12 +57,13 @@ const BuisnessChange = () => {
                       ></path>
                     </svg>
                   </div>
-                  <span className="p-2 sm:p-4 text-2xl">
+                  <span className="p-1 sm:p-4 text-2xl">
                     Streamline operations for enhanced <b> efficiency</b> and{" "}
                     <b> productivity.</b>
                   </span>
                 </li>
-                <li className="flex items-center space-x-2">
+                
+                <li className="flex items-center space-x-1">
                   <div className="bg-green-600 p-1 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -93,12 +79,12 @@ const BuisnessChange = () => {
                       ></path>
                     </svg>
                   </div>
-                  <span className="p-2 sm:p-4 text-2xl">
+                  <span className="p-1 sm:p-4 text-2xl">
                     Elevate decision-making for <b> strategic growth</b> and{" "}
                     <b> profitability.</b>
                   </span>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-1">
                   <div className="bg-green-600 p-1 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -115,13 +101,13 @@ const BuisnessChange = () => {
                     </svg>
                   </div>
                   
-                  <span className="p-2 sm:p-4 text-2xl">
+                  <span className="p-1 sm:p-4 text-2xl">
                     Cultivate a culture of <b>innovation</b> and{" "}
                     <b>adaptability </b> to thrive in <b>dynamic markets.</b>{" "}
                   </span>
                 </li>
 
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-1">
                   <div className="bg-green-600 p-1 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -137,21 +123,29 @@ const BuisnessChange = () => {
                       ></path>
                     </svg>
                   </div>
-                  <span className="p-2 sm:p-4 text-2xl">
+                  <span className="p-1 sm:p-4 text-2xl">
                     Propel your business towards<b>sustainable success</b> and{" "}
                     <b>competitive advantage.</b>{" "}
                   </span>
                 </li>
               </ul>
   
-              <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
-        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
-        </span>
-        </button> 
-      </div>
+           {/* action now button */}
+        <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
+          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <FontAwesomeIcon
+              icon={faGreaterThan}
+              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+            />
+          </button>
+        </div>
+        
             </div>
           </div>
+
+
+          
         </div>
       </div>
     </div>
@@ -161,3 +155,26 @@ const BuisnessChange = () => {
 };
 
 export default BuisnessChange;
+
+
+
+
+
+
+  {/* <div className="relative w-full text-center"> */}
+            {/* blueimage */}
+            {/* w-4 h-4 sm:w-6 sm:h-6 */}
+            {/* <img
+              className=" left-[-10px] sm:left-[-50px] animate-slideLeft "
+              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
+              alt="Polygon Blue"
+            /> */}
+            {/* orange image */}
+            {/* <img
+              className="absolute right-[-50px] animate-slideRight w-6 h-6"
+              src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-green.svg"
+              alt="Polygon Green"
+            /> */}
+          {/* </div> */}
+          {/* mx-auto */}
+          {/* lg:flex-row */}

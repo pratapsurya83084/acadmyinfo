@@ -24,13 +24,13 @@ const LearnInFourHour = () => {
             />
           </svg>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-10">
           {/* card 1 */}
           <div className="radius-yellow max-w-sm flex flex-row bg-custom-gray  rounded-3xl">
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               01
             </div>
-            <div className="font-normal px-4 py-7">
+            <div className="font-normal px-4 py-7 mt-4">
               <b>Discover 9 Proven Techniques</b> to Become an Elite Decision Maker
             </div>
           </div>
@@ -70,7 +70,7 @@ const LearnInFourHour = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               05
             </div>
-            <div className="font-normal px-4 py-7">
+            <div className="font-normal px-4 py-7 mt-4">
             <b>Experience Real Growth With 6 Dynamic</b> Business Simulation Exercises
             </div>
           </div>
@@ -86,12 +86,16 @@ const LearnInFourHour = () => {
           </div>
         </div>
 
-        <div className=" flex justify-center sm: mt-8 py-2 sm:px-2">
-        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
-        </span>
-        </button> 
-      </div>
+             {/* action now button */}
+             <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
+          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <FontAwesomeIcon
+              icon={faGreaterThan}
+              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+            />
+          </button>
+        </div>
 
       </div>
     </section>

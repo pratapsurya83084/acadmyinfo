@@ -17,6 +17,7 @@ import Promise   from '../component/Promise'
 import FAQ from '../component/FAQ'
 import CompanyLogo    from '../component/CompanyLogo'
 import  FooterBar  from "../component/FooterBar"
+import SuccessAcheive  from  '../component/SuccessAcheive'
 const Home = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const Home = () => {
       <FeaturedSlider/>
       <BuisnessChange/>
       <RealLifeBuissness/>
+      <SuccessAcheive/>
       <SeminarSection/>
       <LearnInFourHour/>
       <BonusSection/>
@@ -38,6 +40,7 @@ const Home = () => {
     <FAQ/>
     <CompanyLogo/>
     <FooterBar/>
+  
     </div>
   );
 };

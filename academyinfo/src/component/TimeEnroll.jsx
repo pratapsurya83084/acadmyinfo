@@ -29,24 +29,31 @@ const TimeEnroll = () => {
   const seconds = totalSeconds % 90;
 
   // current day
-  const currentDate = new Date();
-  const options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
-  const formattedDate = currentDate.toLocaleDateString("en-US", options);
+  
+// To show the date and day for the 15th day from the current date, you can modify the JavaScript code as follows:
 
+const currentDate = new Date();
+const futureDate = new Date();
+futureDate.setDate(currentDate.getDate() + 15);
+
+const options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+const formattedDate = futureDate.toLocaleDateString("en-US", options);
+
+// console.log(formattedDate);
   return (
     <div className="timeEnroll-section flex flex-col items-center justify-center sm:ml-0 md:ml-0 lg:ml-0 mt-10 text-white text-center">
       <div>
-        <h2 className="font-bold text-center">Discover what waits for you</h2>
+        <h2 className="mt-4 font-bold">"Discover what waits for you"</h2>
       </div>
       <div>
-        <h1 className="mt-4 text-xl font-bold"> Enrolling Going on</h1>
+        <h1 className="mt-4 font-bold"> Enrolling Going on</h1>
       </div>
 
       <div>
-        <h2 className="mt-4 text-sm font-bold">Your Basic English and Me</h2>
+        <h2 className="mt-4 font-bold">Your Basic English and Me</h2>
       </div>
       <div>
-        <h1 className="mt-4 text-xl font-bold"> STARTS ON {formattedDate} (8:00 AM)</h1>
+        <h1 className="mt-4 text-xl font-bold text-red-500"> STARTS ON {formattedDate} (8:00 AM)</h1>
       </div>
 
       <div>

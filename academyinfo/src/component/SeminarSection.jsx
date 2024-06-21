@@ -14,10 +14,10 @@ const SeminarSection = () => {
         </svg>
       </div>
         {/* flex large screen */}
-        <div className="mt-10 lg:flex mx-5">
+        <div className="mt-8 lg:flex mx-5 ">
           {/* leftside text for large screen */}
           <div className="p-4">
-            <h1 className="text-center font-bold">Who can join?</h1>
+            <h1 className="text-center font-bold text-2xl">Who can join?</h1>
           <div className=" radius-yellow rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
             <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
@@ -57,7 +57,7 @@ const SeminarSection = () => {
 
           {/* right side text for large screen */}
           <div className="p-4">
-            <h1 className="text-center font-bold">Who can't Join?</h1>
+            <h1 className="text-center font-bold text-2xl">Who can't Join?</h1>
           <div className=" radius-yellow px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
           <div className="text-white h-6 w-6 flex justify-center">
           <div className=" h-6 w-6 flex justify-center">
@@ -121,13 +121,16 @@ const SeminarSection = () => {
     
         </div>
         {/* section -21 */}
-          {/* button  */}
-          <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
-        <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-         <span className="">Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan}  className="bg-white text-blue-500 px-2 py-1 rounded-lg "/>
-        </span>
-        </button> 
-      </div>
+               {/* action now button */}
+        <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2 mb-7">
+          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <FontAwesomeIcon
+              icon={faGreaterThan}
+              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+            />
+          </button>
+        </div>
           
       </section>
     </div>

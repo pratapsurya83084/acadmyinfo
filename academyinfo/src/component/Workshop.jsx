@@ -12,16 +12,16 @@ const Workshop = () => {
       <div className="w-full justify-center">
       {/* lg:ml-[90px] */} 
       {/* bg-custom-brown  rounded-full h-[250px] w-[250px] ,*/}
-        <div className="workshop-left-section  rounded-full h-[250px] w-[250px] md:h-[300px] md:w-[300px] mx-auto lg:mx-0 relative">
-          <h1 className="animate-move-x-reverse relative right-0 sm:ml-5 text-4xl sm:text-6xl sm:right-[200px] md:text-7xl md:right-60 md:ml-10 lg:right-28 lg:text-7xl lg:ml-2 font-bold">
+        <div className=" workshop-left-section  rounded-full h-[250px] w-[450px] md:h-[300px] md:w-[500px] mx-auto lg:mx-0 relative lg:right-28">
+          <h1 className="text-black animate-move-x-reverse   sm:ml-5 text-4xl sm:text-5xl absolute right-60 sm:right-[250px] md:text-6xl md:right-72 md:ml-2 lg:right-50 lg:text-6xl lg:ml-2 font-bold">
             Bishop
           </h1>
           <img
-            className="absolute top-[-22px] h-[270px] md:h-[400px] lg:h-[400px] mt-2 rounded-lg ml-6 md:ml-2 w-42 lg:w-full"
+            className=" top-[-22px] h-[270px] md:h-[400px] lg:h-[400px] mt-2 rounded-lg ml-6 md:ml-2 w-42 lg:w-full"
             src="public\MY PICTURE AT FIRST.png"
             alt="WorkshopImage"
           />
-          <h1 className="animate-move-x-reverse font-bold relative mt-32 left-40 bottom-0 md:bottom-14 md:mt-60 md:left-[290px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-white mb-4 mr-4 lg:text-right">
+          <h1 className="animate-move-x-reverse font-bold absolute mt-32  left-60 bottom-20 md:bottom-14 md:mt-60 md:left-[290px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-black mb-4 mr-4 lg:text-right">
             Adhikari
           </h1>
         </div>
@@ -44,10 +44,11 @@ const Workshop = () => {
             </p>
           </div>
         </div>
-        
+          
+          {/* action now button */}
         <div>
-          <button className="lg:hidden  flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold lg:text-2xl rounded-2xl relative">
-            Action Now with ₹99
+          <button className="lg:hidden  flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-2xl rounded-2xl relative  focus:border">
+            Action Now with ₹29
             <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
               <FontAwesomeIcon icon={faGreaterThan} />
             </span>
@@ -105,16 +106,16 @@ const Workshop = () => {
       </div>
   
       {/* Section 7 large screen show button */}
-      <div className="w-full">
-        <div className="large-screen-button  mt-10 hidden lg:p-5 lg:flex whitespace-nowrap relative bg-blue-600 rounded-2xl">
-          <button className=" lg:text- px-28 font-bold relative z-10">
-            Action Now with ₹99
+     {/* action now button */}
+     <div className="w-full">
+          <button className="hidden  lg:flex mt-10 bg-blue-600 w-full justify-center p-5 font-bold text-2xl rounded-2xl relative focus:border">
+            Action Now with ₹29
+            <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
+              <FontAwesomeIcon icon={faGreaterThan} />
+            </span>
           </button>
-          <span className="absolute p-2 right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-500 px-4 py-2 rounded-xl mr-3">
-            <FontAwesomeIcon icon={faGreaterThan} />
-          </span>
         </div>
-      </div>
+    
     </div>
   </div>
   

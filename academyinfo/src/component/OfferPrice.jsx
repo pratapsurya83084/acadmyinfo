@@ -34,14 +34,15 @@ const OfferPrice = () => {
     <section>
       <div className="flex flex-col justify-center items-center">
         <div>
-          <h3 className="text-xl font-bold mt-20 p-3">Total Value ₹7,486/- </h3>
+        {/* ₹7,486 */}
+          <h3 className="text-xl font-bold mt-20 p-3">Total Value ₹9,468/- </h3>
         </div>
 
         <div>
           <h2 className="text-3xl font-bold  p-2">Regular Price: ₹999/- </h2>
         </div>
         <div>
-          <h1 className="radius-yellow text-3xl font-bold  p-3 text-yellow-200 bg-custom-gray rounded-xl">TODAY'S OFFER PRICE: ₹99/-</h1>
+          <h1 className="radius-yellow text-3xl font-bold  p-3 text-yellow-200 bg-custom-gray rounded-xl">TODAY'S OFFER PRICE: ₹199/-</h1>
         </div>
 
 
@@ -59,19 +60,18 @@ const OfferPrice = () => {
         </div>
         
 
-        {/* <div className="w-full flex flex-row mb-4 justify-center items-center max-4">
-          <button className=" mt-10 bg-blue-600  p-5 font-bold lg:text-2xl rounded-2xl relative">
-            Action Now with ₹99
-            <span className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-4 py-2 rounded-xl mr-3">
-              <FontAwesomeIcon icon={faGreaterThan} />
-            </span>
+        
+        {/* action now button */}
+        <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2 mb-6">
+          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <FontAwesomeIcon
+              icon={faGreaterThan}
+              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+            />
           </button>
-        </div> */}
-        <div className="flex justify-center sm: mt-8 py-6 sm:px-2">
-        <button className="bg-blue-600   text-white text-2xl text-center pb-3 font-bold py-2 px-10 rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-          Join Now for ₹99 <FontAwesomeIcon icon={faGreaterThan} className="bg-white p-2 rounded text-blue-500 px-4" />
-        </button>
-      </div>
+        </div>
+
       </div>
     </section>
   );

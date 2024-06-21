@@ -30,8 +30,8 @@ const TestimonialsParticipants = () => {
           {/* cards 1 */}
           <div className=" p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl"
-              src="public\Rohan Mehta India.png"
+              className="h-56 rounded-3xl mt-2"
+              src="\public\Screenshot 2024-06-21 085545.png"
               alt=""
             />
             <p className="text-center">
@@ -217,36 +217,32 @@ const TestimonialsParticipants = () => {
            <div className="p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Elena Volkova  Russia.png"
+              src="\public\9th_testimonial_img.jpg"
               alt=""
             />
             <p className="text-center">
-              The Bishop Adhikari course has been a profound journey of
-              self-discovery and empowerment. The comprehensive curriculum and
-              supportive community helped me gain new perspectives on both
-              personal and professional challenges. This experience has been
-              invaluable, and I highly recommend it to anyone looking to make
-              meaningful changes in their life.
+            "The Bishop Adhikari course was truly transformative. It provided me with profound insights and practical tools that I have seamlessly integrated into my 
+            daily life. The clarity and depth of the teachings were exceptional. I highly recommend this course to anyone seeking personal and spiritual growth."
             </p>
 
             <p className="bg-custom-gray mb-4 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Elena Volkova, Russia</b>
-                <h5> Chief Financial Officer at Rosneft</h5>
+                <b className="text-yellow-200">Eric Wu ,USA</b>
+                <h5> Chief Technology Officer at Tech Innovations
+
+</h5>
               </span>
             </p>
           </div>
         </div>
-
-        <div className="flex justify-center sm: mt-8 py-2 sm:px-2">
-          <button className="bg-blue-600    text-white text-2xl font-bold py-2 px-6  rounded-xl  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <span className="">
-              Join Now for ₹99{" "}
-              <FontAwesomeIcon
-                icon={faGreaterThan}
-                className="bg-white text-blue-500 px-2 py-1 radius-yellow rounded-lg "
-              />
-            </span>
+               {/* action now button */}
+        <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
+          <button className="bg-blue-600 text-white text-xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+            <span className="flex-grow text-center">Action Now for ₹29</span>
+            <FontAwesomeIcon
+              icon={faGreaterThan}
+              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+            />
           </button>
         </div>
 

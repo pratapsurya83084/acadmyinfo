@@ -363,59 +363,58 @@ justify-items: center; */
 
 @media (min-width: 375px) and (max-width: 425px) {
   .buisness-section {
-    /* flex-direction: column;
-     justify-content: center;
-     align-items: center; */
+   
     margin-top: 30px;
     margin-left: px;
-
-    width: 480px;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 768px) {
-  .buisness-section {
-    /* flex-direction: column;
-     justify-content: center;
-     align-items: center; */
-    /* margin-top: 30px; */
-    margin-left: 0px;
 
     width: 550px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .buisness-section {
-    /* flex-direction: column;
-     justify-content: center;
-     align-items: center; */
-    /* margin-top: 30px; */
+
+    margin-left: 0px;
+       
+    width:550px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  .buisness-section {
+  
     margin-left: px;
+    width:895px ;
+  } 
+} 
 
-    width: 900px;
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .buisness-section {
+   
+    margin-left: px; 
+
+    width: 1020px; 
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1884px) {
-  .buisness-section .image-section {
-    height: 350px;
-    width: 900px;
-    /* width: 00px; */
+@media (min-width: 1440px) and (max-width: 1584px) {
+  .buisness-section {
+    display: flex;
+    margin-left: px; 
+
+    width: 1480px; 
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1884px) {
-  .buisness-section .image-text-section {
-    flex-direction: row;
-  }
-}
 
-@media (min-width: 1884px) and (max-width: 2560px) {
-  .buisness-section .image-text-section {
-    flex-direction: row;
-  }
-}
+
+
+
+
+
+
+
 /*timeEnroll.jsx  timeEnroll-section css*/
 @media (min-width: 320px) and (max-width: 375px) {
   .timeEnroll-section {
