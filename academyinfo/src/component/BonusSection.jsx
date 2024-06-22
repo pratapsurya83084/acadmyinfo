@@ -3,7 +3,7 @@ import React from "react";
 import OfferPrice  from './OfferPrice'
 const BonusSection = () => {
   return (
-    <section>
+    <section className="bonus-section">
       <div className="radius-yellow flex flex-col justify-center items-center  mt-10 bg-custom-brown rounded-3xl">
         <h1 className=" mt-10 text-center text-2xl font-bold">
           Unlock Exclusive Bonuses When You Register Before the Timer Expires!

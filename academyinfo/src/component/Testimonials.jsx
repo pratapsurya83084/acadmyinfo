@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const Testimonials = () => {
   return (
-    <section>
+    <section className="three-testimonial-section">
       <div>
         <div className="flex flex-col justify-center items-center">
           <div>
@@ -36,7 +36,7 @@ const Testimonials = () => {
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col   md:flex-row justify-center mx-2 md:mx-0 -m-4 gap-6">
           {/* card-1 */}
-            <div class="p-2 md:w-1/3 bg-custom-brown rounded-3xl">
+            <div class="p-2 md:w-1/3 bg-custom-brown radius-yellow rounded-3xl">
         <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative flex flex-col items-center">
           <h2 class="tracking-widest title-font font-medium text-gray-400 mb-1 text-yellow-200 text-2xl">
             71 % of YOY growth
@@ -53,7 +53,7 @@ const Testimonials = () => {
             Startup
           </h5>
           <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-            <p class="bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p class="radius-yellow bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
               <span class="p-4 text-yellow-200 text-2xl font-bold">
                 Trishita
               </span>
@@ -63,7 +63,7 @@ const Testimonials = () => {
       </div>
 
 {/* card-2 */}
-      <div class="p-2 md:w-1/3 bg-custom-brown rounded-3xl">
+      <div class="p-2 md:w-1/3 bg-custom-brown radius-yellow rounded-3xl">
         <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative flex flex-col items-center">
           <h2 class="tracking-widest title-font font-medium text-gray-400 mb-1 text-yellow-200 text-2xl">
           60 Corer
@@ -80,7 +80,7 @@ const Testimonials = () => {
           Devine Corporation.
           </h5>
           <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-            <p class="bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p class="radius-yellow bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
               <span class="p-4 text-yellow-200 text-2xl font-bold">
               Jenica Yoo{" "}
               </span>
@@ -89,7 +89,7 @@ const Testimonials = () => {
         </div>
       </div>
       {/* card-3 */}
-      <div class="p-2 md:w-1/3 bg-custom-brown rounded-3xl">
+      <div class="p-2 md:w-1/3 bg-custom-brown radius-yellow rounded-3xl">
         <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative flex flex-col items-center">
           <h2 class="tracking-widest title-font font-medium text-gray-400 mb-1 text-yellow-200 text-2xl">
           3 Coroe in
@@ -106,8 +106,8 @@ const Testimonials = () => {
           Freelancer Design and Content Strategies
           </h5>
           <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-            <p class="bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
-              <span class="p-4 text-yellow-200 text-2xl font-bold">
+            <p class="radius-yellow bg-custom-gray rounded-3xl p-4 text-center font-normal text-gray-700 dark:text-gray-400">
+              <span class="p-2 text-yellow-200 text-2xl font-bold">
               Deepak N R{" "}
               </span>
             </p>

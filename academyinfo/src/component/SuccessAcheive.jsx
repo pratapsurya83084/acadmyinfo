@@ -3,7 +3,8 @@ import React from 'react'
 const SuccessAcheive = () => {
   return (
     <div>
-     <section class="success-achieved  sm:w-[750px] sm:ml-[0px]  md:w-[900px] md:ml-[30px]  lg:w-[1340px]  2xl:w-[2460px]  m-0    text-center text-gray-600 body-font">
+       {/* sm:w-[750px] sm:ml-[0px]  md:w-[900px] md:ml-[30px]  lg:w-[1340px]  2xl:w-[2460px] */}
+     <section class="success-achieved   m-0    text-center text-gray-600 body-font">
         <h1 className='text-center text-3xl font-bold'>Success Achieved</h1>
 
         <div className="flex justify-center mb-4">

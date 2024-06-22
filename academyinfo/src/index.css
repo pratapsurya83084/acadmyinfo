@@ -387,10 +387,16 @@ justify-items: center; */
   .buisness-section {
   
     margin-left: px;
-    width:895px ;
+    width:897px ;
   } 
 } 
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  .buisness-section {
+  
+    margin-left:2px;
+    width:899px ;
+  } 
+} 
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .buisness-section {
@@ -406,7 +412,7 @@ justify-items: center; */
     display: flex;
     margin-left: px; 
 
-    width: 1480px; 
+    width: 1472px; 
   }
 }
 
@@ -586,7 +592,7 @@ margin-left: 130px;
 
 
 
-/* success-achieved-section  w-[520px] */
+
 
 /* .success-achieved{
   margin-left: 10px;
@@ -621,7 +627,246 @@ width:520px;
   @media (min-width: 450px) and (max-width:768px) {
     .success-achieved{
   /* display: flex; */
-  margin-left:10px;
+  margin-left:12px;
+  width:875px ;
   }
   }
   
+  @media (min-width: 768px) and (max-width:1024px) {
+    .success-achieved{
+  /* display: flex; */
+  margin-left:5px;
+  /* width:900px ; */
+  }
+  }
+
+
+  /* success-achieved-section   */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .seminar-section{
+width: 514px;
+/* margin-left: 10px; */
+}
+}
+@media (min-width: 375px) and (max-width:450px) {
+  .seminar-section{
+width: 550px;
+/* margin-left: 1px; */
+}
+}
+
+@media (min-width: 450px) and (max-width:768px) {
+  .seminar-section{
+/* display: flex; */
+/* margin-left:12px; */
+width:898px ;
+}
+}
+
+
+@media (min-width: 768px) and (max-width:1024px) {
+  .seminar-section{
+/* display: flex; */
+/* margin-left:12px; */
+width:900px ;
+}
+}
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .seminar-section {
+   
+    margin-left: px; 
+    width: 1024px;
+    /* width: 1020px;  */
+    /* width: 1472px;  */
+  }
+} 
+
+
+@media (min-width: 1440px) and (max-width: 1584px) {
+  .seminar-section {
+   
+    margin-left: px; 
+    width: 1471px;
+    /* width: 1020px;  */
+  }
+} 
+
+
+/* fourHours-learnSection-section */
+@media (min-width: 320px) and (max-width: 375px) {
+  .fourHours-learnSection-section{
+width: 514px;
+/* margin-left: 10px; */
+}
+}
+@media (min-width: 375px) and (max-width:450px) {
+  .fourHours-learnSection-section{
+width: 550px;
+/* margin-left: 1px; */
+}
+}
+
+@media (min-width: 450px) and (max-width:768px) {
+  .fourHours-learnSection-section{
+/* display: flex; */
+/* margin-left:12px; */
+width:898px ;
+}
+}
+
+
+/* @media (min-width: 768px) and (max-width:1024px) {
+  .fourHours-learnSection-section{
+
+width:900px ;
+}
+} */
+
+
+/* @media (min-width: 1024px) and (max-width: 1440px) {
+  .fourHours-learnSection-section{
+   
+    margin-left: px; 
+    width: 1024px;
+  }
+}  */
+
+
+/* @media (min-width: 1440px) and (max-width: 1584px) {
+  .seminar-section {
+   
+    margin-left: px; 
+  
+  }
+}  */
+
+
+/* bonus-section css */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .bonus-section{
+width: 514px;
+/* margin-left: 10px; */
+}
+}
+@media (min-width: 375px) and (max-width:450px) {
+  .bonus-section{
+width: 550px;
+/* margin-left: 1px; */
+}
+}
+
+@media (min-width: 450px) and (max-width:768px) {
+  .bonus-section{
+/* display: flex; */
+/* margin-left:12px; */
+width:898px ;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .bonus-section {
+   
+    margin-left: px; 
+    width: 1024px;
+    /* width: 1020px;  */
+    /* width: 1472px;  */
+  }
+} 
+
+@media (min-width: 1440px) and (max-width: 1584px) {
+  .bonus-section {
+   
+    margin-left: px; 
+    width: 1470px;
+    /* width: 1020px;  */
+    /* width: 1472px;  */
+  }
+} 
+/* three-testimonial-section css */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .three-testimonial-section{
+width: 514px;
+/* margin-left: 10px; */
+}
+}
+@media (min-width: 375px) and (max-width:450px) {
+  .three-testimonial-section{
+width: 550px;
+/* margin-left: 1px; */
+}
+}
+
+@media (min-width: 450px) and (max-width:768px) {
+  .three-testimonial-section{
+/* display: flex; */
+/* margin-left:12px; */
+width:898px ;
+}
+}
+
+
+/* nine-testimonial-section css */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .nine-testimonial-section{
+width: 514px;
+/* margin-left: 10px; */
+}
+}
+@media (min-width: 375px) and (max-width:450px) {
+  .nine-testimonial-section{
+width: 550px;
+/* margin-left: 1px; */
+}
+}
+
+@media (min-width: 450px) and (max-width:768px) {
+  .nine-testimonial-section{
+
+width:898px ;
+}
+}
+
+
+@media (min-width: 1260px) and (max-width:1440px) {
+  .nine-testimonial-section{
+
+width:1467px ;
+}
+}
+
+
+/* coach-section css */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .coach-section{
+width: 514px;
+/* margin-left: 10px; */
+}
+}
+@media (min-width: 375px) and (max-width:450px) {
+  .coach-section{
+width: 550px;
+/* margin-left: 1px; */
+}
+}
+
+@media (min-width: 450px) and (max-width:768px) {
+  .coach-section{
+
+width:898px ;
+}
+}
+
+
+@media (min-width: 1260px) and (max-width:1440px) {
+  .coach-section{
+
+width:1467px ;
+}
+}

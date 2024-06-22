@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const TestimonialsParticipants = () => {
   return (
-    <div>
+    <div className="nine-testimonial-section">
       <div className="bg-custom-brown radius-yellow rounded-3xl pb-4 ">
         <h1 className="text-2xl text-center font-bold p-6">
           {" "}
@@ -26,7 +26,7 @@ const TestimonialsParticipants = () => {
           </svg>
         </div>
         {/* section-29 */}
-        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 gap-10 mx-20 ">
+        <div className=" justify-center items-center 2xl:ml-[320px] grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 gap-10 mx-20 ">
           {/* cards 1 */}
           <div className=" p-2 radius-yellow rounded-3xl max-w-sm flex flex-col justify-center items-center bg-gray">
             <img
@@ -65,7 +65,7 @@ const TestimonialsParticipants = () => {
               Gyan.
             </p>
 
-            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray mb-4 px-4 mx-2  radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
                 <b className="text-yellow-200">Olivia Watson, England</b>
                 <h5> Senior Manager at GreenTech Solutions</h5>

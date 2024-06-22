@@ -2,7 +2,7 @@ import React from "react";
 
 const CoachSection = () => {
   return (
-    <section>
+    <section className="coach-section">
       <div className="flex flex-col items-center bg-black text-white p-8">
         <h1 className="text-3xl font-bold mb-4 text-center">
           Get Acquainted with Your Coach
