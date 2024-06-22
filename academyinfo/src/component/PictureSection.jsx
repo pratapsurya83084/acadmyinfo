@@ -2,7 +2,7 @@ import React from "react";
 
 const PictureSection = () => {
   return (
-    <section>
+    <section className="picture-section">
       <div className="radius-yellow bg-custom-brown mt-5 rounded-3xl relative">
         {/* section-31 */}
         <h1 className="text-center text-2xl p-4 mt-5 lg:text-3xl font-bold">
@@ -31,7 +31,7 @@ const PictureSection = () => {
           {/* first image */}
             <div>
               <img 
-                className="radius-yellow h-[200px] w-[440px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
+                className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
                 src="public/ABOUTUS4.jpg"
                 alt=""
               />
@@ -39,7 +39,7 @@ const PictureSection = () => {
 
             <div>
               <img
-                className="radius-yellow h-[200px] w-[440px] m-2   xl:w-[550px] xl:h-[300px] rounded-3xl"
+                className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
                 src="\public\ABOUTUS3.jpg"
                 alt=""
               />
@@ -47,14 +47,14 @@ const PictureSection = () => {
 
             <div>
               <img
-                className="radius-yellow h-[200px] w-[440px] m-1  xl:w-[550px]  xl:h-[300px] rounded-3xl"
+                className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
                 src="/public\WhatsApp Image 2024-05-14 at 2.44.45 PM (1).jpeg"
                 alt=""
               />
             </div>
             <div>
               <img
-                className="radius-yellow h-[200px] w-[440px] m-2 xl:w-[550px] xl:h-[300px]  rounded-3xl"
+                className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
                 src="public\WhatsApp Image 2024-06-19 at 10.55.51 AM.jpeg"
                 alt=""
               />

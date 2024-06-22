@@ -54,8 +54,8 @@ const FAQ = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className="faq-section">
+      {/* <div> */}
         <h1 className="text-center text-2xl font-bold mt-10">
           Frequently Asked Questions:
         </h1>
@@ -426,7 +426,7 @@ const FAQ = () => {
           <hr className="text-gray" />
         </div>
       </div>
-    </div>
+  
   );
 };
 

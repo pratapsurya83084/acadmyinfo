@@ -33,7 +33,7 @@ const Testimonials = () => {
 
         {/* add 3 cards */}
         <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto">
+          <div class="container px-5 py-10 mx-auto">
             <div class="flex flex-col   md:flex-row justify-center mx-2 md:mx-0 -m-4 gap-6">
           {/* card-1 */}
             <div class="p-2 md:w-1/3 bg-custom-brown radius-yellow rounded-3xl">

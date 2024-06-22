@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const GuaranteeCashback = () => {
   return (
-    <section>
+    <section className="guarantee-section">
       <div>
         <div className="text-center mt-10 p-4 text-2xl font-bold">
           <h1>Still Unsure? We've Got You Covered!</h1>

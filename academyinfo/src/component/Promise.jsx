@@ -2,7 +2,7 @@ import React from "react";
 
 const Promise = () => {
   return (
-    <section>
+    <section className="promise-section">
       <div className="radius-yellow mx-10  lg:mx-20 mt-10  rounded-3xl bg-custom-brown flex flex-col justify-center items-center">
         {/* <img className="absolute  mb-[690px] ml-[300px]"
           src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/Polygon-blue.svg"
