@@ -18,7 +18,7 @@ const Workshop = () => {
           </h1>
           <img
             className=" top-[-22px] h-[270px] md:h-[400px] lg:h-[400px] mt-2 rounded-lg ml-6 md:ml-2 w-42 lg:w-full"
-            src="public\MY PICTURE AT FIRST.png"
+            src="/public\MY PICTURE AT FIRST.png"
             alt="WorkshopImage"
           />
           <h1 className="animate-move-x-reverse font-bold absolute mt-32  left-60 bottom-20 md:bottom-14 md:mt-60 md:left-[290px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-black mb-4 mr-4 lg:text-right">

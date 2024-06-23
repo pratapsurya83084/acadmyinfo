@@ -38,6 +38,8 @@ const Heading = () => {
       </div>
       {/* section -2 */}
       {/* lg:whitespace-nowrap */}
+   
+
       <div className=" text-white flex flex-row   w-full mt-10  justify-center ">
         <h1 className="text-center  text-3xl ml-7 md:text-5xl font-bold">
           Transform Your Business into a 

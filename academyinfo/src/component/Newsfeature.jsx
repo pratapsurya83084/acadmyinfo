@@ -20,7 +20,7 @@ const Newsfeature = () => {
 
   return (
     // section 15
-    <div>
+    <div className="newsFeature-section">
     <h1 className="crousal-section bg-yellow-200 ml-[100px] sm:ml-[130px] md:ml-[150px] mt-10  rounded-tl-xl rounded-tr-xl text-black font-bold inline-block p-1 px-4">
       FEATURED IN
     </h1>

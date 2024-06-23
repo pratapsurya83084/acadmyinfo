@@ -134,7 +134,7 @@ const TestimonialsParticipants = () => {
               journey.
             </p>
 
-            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray mb-3 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
                 <b className="text-yellow-200"> Max Muller, Germany</b>
                 <h5> Software Engineer at SAP</h5>
@@ -180,7 +180,7 @@ const TestimonialsParticipants = () => {
               connection.
             </p>
 
-            <p className="bg-custom-gray radius-yellow rounded-xl mt-5 p-3 text-center font-normal text-gray-700 dark:text-gray-400">
+            <p className="bg-custom-gray mb-4 radius-yellow rounded-xl mt-5 p-3 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
                 <b className="text-yellow-200">James Smith, England</b>
                 <h5> Director at Global Trade Corp</h5>

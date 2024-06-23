@@ -32,7 +32,7 @@ const PictureSection = () => {
             <div>
               <img 
                 className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
-                src="public/ABOUTUS4.jpg"
+                src="/public/ABOUTUS4.jpg"
                 alt=""
               />
             </div>
@@ -40,7 +40,7 @@ const PictureSection = () => {
             <div>
               <img
                 className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
-                src="\public\ABOUTUS3.jpg"
+                src="/public\ABOUTUS3.jpg"
                 alt=""
               />
             </div>
@@ -55,7 +55,7 @@ const PictureSection = () => {
             <div>
               <img
                 className="radius-yellow h-[300px] w-full  sm:h-[200px]   md:h-[200px]  md:w-[470px] m-1   xl:w-[550px] xl:h-[300px] rounded-3xl"
-                src="public\WhatsApp Image 2024-06-19 at 10.55.51 AM.jpeg"
+                src="/public\WhatsApp Image 2024-06-19 at 10.55.51 AM.jpeg"
                 alt=""
               />
             </div>
@@ -65,7 +65,7 @@ const PictureSection = () => {
             {/* h-[200px] sm:h-[300px] md:h-[400px] lg:h-[540px] xl:h-[980px]   */}
               <img
                 className="radius-yellow   w-full object-cover rounded-3xl"
-                src="\public\image.png"
+                src="/public\image.png"
                 alt=""
               />
             </div>
